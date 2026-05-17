@@ -34,6 +34,12 @@
   .tweet-meta span { display:flex; align-items:center; gap:4px; }
   .tweet-link { color:#71767b; font-size:12px; text-decoration:none; }
   .tweet-link:hover { color:#1d9bf0; }
+  .parent-tweet { padding:8px 12px; background:#0a0a0a; border-radius:8px; margin-bottom:8px; font-size:14px; }
+  .thread { flex-direction:column; }
+  .media-grid { display:flex; gap:4px; flex-wrap:wrap; margin:8px 0; }
+  .tweet-media { max-width:100%; max-height:300px; border-radius:12px; border:1px solid #2f3336; }
+  .video-link { color:#1d9bf0; font-size:13px; text-decoration:none; display:inline-block; margin:4px 0; }
+  .video-link:hover { text-decoration:underline; }
   .empty { padding:40px 16px; text-align:center; color:#71767b; }
   .tab-bar { display:flex; border-bottom:1px solid #2f3336; }
   .tab { flex:1; padding:12px; text-align:center; color:#71767b; font-size:15px; cursor:pointer; border-bottom:2px solid transparent; transition:all 0.2s; }
@@ -117,34 +123,76 @@ function render() {
     html += `<div class="day-header">${formatDate(digest.date)} · ${digest.list} · ${tweets.length} tweets</div>`;
 
     for (const t of tweets) {
-      const signalClass = t.signal.startsWith('🔴') ? 'signal-sig' : t.signal.startsWith('🟡') ? 'signal-insight' : t.signal.startsWith('🟢') ? 'signal-disc' : 'signal-link';
-      html += `
-        <div class="tweet">
-          <img class="avatar" src="${t.avatar || 'data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 40 40%22><rect fill=%22%232f3336%22 width=%2240%22 height=%2240%22 rx=%2220%22/></svg>'}" alt="${t.username}" loading="lazy" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 40 40%22><rect fill=%22%232f3336%22 width=%2240%22 height=%2240%22 rx=%2220%22/><text fill=%22%2371767b%22 x=%2220%22 y=%2224%22 text-anchor=%22middle%22 font-size=%2216%22>${t.username[0].toUpperCase()}</text></svg>'">
-          <div class="tweet-body">
-            <div class="tweet-header">
-              <span class="tweet-name">${t.name}</span>
-              <span class="tweet-handle">@${t.username}</span>
-            </div>
-            <div class="tweet-text">${linkify(t.text)}</div>
-            <div class="badges">
-              <span class="badge badge-signal ${signalClass}">${t.signal}</span>
-              ${(t.themes||[]).map(th => `<span class="badge badge-theme">${th}</span>`).join('')}
-              <span class="badge badge-source">${t.source}</span>
-            </div>
-            <div class="tweet-meta">
-              ${t.likes !== undefined ? `<span>❤️ ${t.likes}</span>` : ''}
-              ${t.retweets !== undefined ? `<span>🔄 ${t.retweets}</span>` : ''}
-              ${t.tweet_url ? `<a href="${t.tweet_url}" class="tweet-link" target="_blank">🔗 view on X</a>` : ''}
-            </div>
-          </div>
-        </div>`;
+      if (t.is_reply) {
+        // Render reply with parent
+        html += renderTweetPair(t);
+      } else {
+        html += renderTweet(t);
+      }
+    }
     }
   }
 
   if (!html) html = '<div class="empty">No tweets match this filter.</div>';
   feed.innerHTML = html;
   document.getElementById('date-range').textContent = filtered.length ? `${filtered[filtered.length-1].date} → ${filtered[0].date} · ${totalTweets} tweets` : '';
+}
+
+function renderTweet(t) {
+  const sigClass = t.signal && t.signal.startsWith('🔴') ? 'signal-sig' : t.signal && t.signal.startsWith('🟡') ? 'signal-insight' : t.signal && t.signal.startsWith('🟢') ? 'signal-disc' : 'signal-link';
+  const initial = (t.username || '?')[0].toUpperCase();
+  return `
+    <div class="tweet">
+      <img class="avatar" src="${t.avatar || `data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 40 40%22><rect fill=%22%232f3336%22 width=%2240%22 height=%2240%22 rx=%2220%22/><text fill=%22%2371767b%22 x=%2220%22 y=%2224%22 text-anchor=%22middle%22 font-size=%2216%22>${initial}</text></svg>`}" alt="${t.username}" loading="lazy">
+      <div class="tweet-body">
+        <div class="tweet-header">
+          <span class="tweet-name">${t.name || t.username || 'User'}</span>
+          <span class="tweet-handle">@${t.username || 'unknown'}</span>
+        </div>
+        <div class="tweet-text">${linkify(t.text)}</div>
+        ${renderMedia(t.media)}
+        <div class="badges">
+          ${t.signal ? `<span class="badge badge-signal ${sigClass}">${t.signal}</span>` : ''}
+          ${(t.themes||[]).map(th => `<span class="badge badge-theme">${th}</span>`).join('')}
+          ${t.source ? `<span class="badge badge-source">${t.source}</span>` : ''}
+        </div>
+        <div class="tweet-meta">
+          ${t.likes !== undefined ? `<span>❤️ ${t.likes}</span>` : ''}
+          ${t.retweets !== undefined ? `<span>🔄 ${t.retweets}</span>` : ''}
+          ${t.tweet_url ? `<a href="${t.tweet_url}" class="tweet-link" target="_blank">🔗 view on X</a>` : ''}
+        </div>
+      </div>
+    </div>`;
+}
+
+function renderTweetPair(t) {
+  return `
+    <div class="tweet thread">
+      ${t.parent ? `
+        <div class="parent-tweet">
+          <span class="tweet-handle">↳ @${t.parent.username || 'unknown'}</span>
+          <div class="tweet-text" style="color:#71767b;font-size:14px;">${linkify(t.parent.text)}</div>
+          ${renderMedia(t.parent.media)}
+          ${t.parent.tweet_url ? `<a href="${t.parent.tweet_url}" class="tweet-link" target="_blank">🔗 view on X</a>` : ''}
+        </div>
+      ` : ''}
+      <div style="margin-left:20px;border-left:2px solid #2f3336;padding-left:12px;">
+        ${renderTweet(t.reply)}
+      </div>
+    </div>`;
+}
+
+function renderMedia(media) {
+  if (!media || !media.length) return '';
+  return `<div class="media-grid">` + media.map(m => {
+    if (m.type === 'image') {
+      return `<a href="${m.url}" target="_blank"><img src="${m.url}" class="tweet-media" loading="lazy" alt="tweet image"></a>`;
+    } else if (m.type === 'video') {
+      return `<a href="${m.url}" target="_blank" class="video-link">▶️ Watch video</a>`;
+    } else {
+      return `<a href="${m.url}" target="_blank">📎 Media</a>`;
+    }
+  }).join('') + `</div>`;
 }
 
 function formatDate(d) {
