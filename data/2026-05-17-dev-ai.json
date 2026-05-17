@@ -3,90 +3,1463 @@
   "list": "Dev/AI",
   "tweets": [
     {
-      "is_reply": true,
-      "parent": {
-        "username": "RhysSullivan",
-        "name": "Rhys",
-        "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
-        "text": "anyone else just have their codex usage go to 0? https://t.co/gZNZ6F3S4I",
-        "tweet_url": "https://x.com/RhysSullivan/status/2056102282215960959",
-        "media": [
-          {
-            "url": "https://x.com/RhysSullivan/status/2056102282215960959/photo/1",
-            "type": "image"
-          }
-        ]
-      },
-      "reply": {
-        "username": "RhysSullivan",
-        "name": "Rhys",
-        "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
-        "text": "this is a sign to go enjoy the weekend",
-        "themes": [
-          "AI Engineering"
-        ],
-        "signal": "🟢 Discussion",
-        "source": "Analyst",
-        "likes": 18,
-        "retweets": 0,
-        "replies": 2,
-        "quotes": 0,
-        "tweet_url": "https://x.com/RhysSullivan/status/2056102374016778592",
-        "id": "2056102374016778592"
-      }
-    },
-    {
-      "username": "RhysSullivan",
-      "name": "Rhys",
-      "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
-      "text": "anyone else just have their codex usage go to 0? https://t.co/gZNZ6F3S4I",
+      "username": "karpathy",
+      "name": "Andrej Karpathy",
+      "avatar": "https://pbs.twimg.com/profile_images/1296667294148382721/9Pr6XrPB_normal.jpg",
+      "text": "This works really well btw, at the end of your query ask your LLM to \"structure your response as HTML\", then view the generated file in your browser. I've also had some success asking the LLM to present its output as slideshows, etc.\n\nMore generally, imo audio is the https://t.co/kECxwF1pdL",
+      "media": [],
+      "likes": 17408,
+      "retweets": 1821,
+      "replies": 911,
+      "quotes": 408,
+      "tweet_url": "https://x.com/karpathy/status/2053872850101285137",
+      "id": "2053872850101285137",
+      "created_at": "2026-05-11T16:20:21.000Z",
       "themes": [
-        "Codex"
+        "DevTools",
+        "AI Engineering"
       ],
-      "signal": "🟢 Discussion",
-      "source": "Community",
-      "likes": 218,
-      "retweets": 3,
-      "replies": 73,
-      "quotes": 4,
-      "tweet_url": "https://x.com/RhysSullivan/status/2056102282215960959",
-      "id": "2056102282215960959"
+      "signal": "🟡 Insight",
+      "source": "Curator"
+    },
+    {
+      "username": "kentcdodds",
+      "name": "Kent C. Dodds 🏹",
+      "avatar": "https://pbs.twimg.com/profile_images/1567269493608714241/6ACZo99k_normal.jpg",
+      "text": "LaaS: Logistics as a Service\n\nWake up babe, new category just dropped https://t.co/xkRKrdJ6PR",
+      "media": [],
+      "likes": 7137,
+      "retweets": 535,
+      "replies": 57,
+      "quotes": 18,
+      "tweet_url": "https://x.com/kentcdodds/status/2051306537151602843",
+      "id": "2051306537151602843",
+      "created_at": "2026-05-04T14:22:44.000Z",
+      "themes": [
+        "AI Engineering"
+      ],
+      "signal": "🟡 Insight",
+      "source": "Curator"
     },
     {
       "username": "RhysSullivan",
       "name": "Rhys",
       "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
-      "text": "opening the emoji picker on a mac https://t.co/HPvfsrEWSG",
+      "text": "junior engineers after submitting their first slop PR: https://t.co/H2gM1JUik6",
+      "media": [],
+      "likes": 5133,
+      "retweets": 207,
+      "replies": 19,
+      "quotes": 4,
+      "tweet_url": "https://x.com/RhysSullivan/status/2055781387685474760",
+      "id": "2055781387685474760",
+      "created_at": "2026-05-16T22:44:12.000Z",
       "themes": [
         "AI Engineering"
       ],
       "signal": "🟢 Discussion",
-      "source": "Curator",
-      "likes": 86,
-      "retweets": 1,
-      "replies": 4,
+      "source": "Curator"
+    },
+    {
+      "username": "mattpocockuk",
+      "name": "Matt Pocock",
+      "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
+      "text": "/handoff might be my new favourite skill https://t.co/VZ4nTjqWdx",
+      "media": [
+        {
+          "url": "https://x.com/mattpocockuk/status/2052489881088049407/photo/1",
+          "type": "image"
+        }
+      ],
+      "likes": 5064,
+      "retweets": 196,
+      "replies": 163,
+      "quotes": 37,
+      "tweet_url": "https://x.com/mattpocockuk/status/2052489881088049407",
+      "id": "2052489881088049407",
+      "created_at": "2026-05-07T20:44:55.000Z",
+      "themes": [
+        "Agent UX"
+      ],
+      "signal": "🟢 Discussion",
+      "source": "Curator"
+    },
+    {
+      "username": "RhysSullivan",
+      "name": "Rhys",
+      "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
+      "text": "i bet it feels good asf to store data in json as a database",
+      "media": [],
+      "likes": 4647,
+      "retweets": 111,
+      "replies": 105,
+      "quotes": 9,
+      "tweet_url": "https://x.com/RhysSullivan/status/2051382744450765248",
+      "id": "2051382744450765248",
+      "created_at": "2026-05-04T19:25:33.000Z",
+      "themes": [
+        "DevTools"
+      ],
+      "signal": "🟡 Insight",
+      "source": "Analyst"
+    },
+    {
+      "username": "mattpocockuk",
+      "name": "Matt Pocock",
+      "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
+      "text": "This is the clarity we've been crying out for.\n\nBut it's a poisoned chalice. This is a 10X cut to claude -p disguised as a monthly bonus.\n\nAnthropic is discouraging any kind of programmatic usage. And that's fine - no subsidy lasts forever.\n\nBut it's time to try Codex. https://t.co/HwIt9mJWyc",
+      "media": [],
+      "likes": 3399,
+      "retweets": 173,
+      "replies": 231,
+      "quotes": 33,
+      "tweet_url": "https://x.com/mattpocockuk/status/2054637261388447956",
+      "id": "2054637261388447956",
+      "created_at": "2026-05-13T18:57:51.000Z",
+      "themes": [
+        "Codex",
+        "Claude Code",
+        "AI Engineering"
+      ],
+      "signal": "🟡 Insight",
+      "source": "Curator"
+    },
+    {
+      "username": "mattpocockuk",
+      "name": "Matt Pocock",
+      "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
+      "text": "1. /grill-with-docs\n2. \"Oh, I need to prototype some UI\"\n3. /handoff to /prototype\n4. Create prototype, /handoff back to grilling session\n5. /to-prd, /to-issues\n6. npm run sandcastle\n7. /improve-codebase-architecture\n\nI love this shit",
+      "media": [],
+      "likes": 3242,
+      "retweets": 141,
+      "replies": 67,
+      "quotes": 12,
+      "tweet_url": "https://x.com/mattpocockuk/status/2052042499053453330",
+      "id": "2052042499053453330",
+      "created_at": "2026-05-06T15:07:11.000Z",
+      "themes": [
+        "Agent UX"
+      ],
+      "signal": "🟡 Insight",
+      "source": "Analyst"
+    },
+    {
+      "username": "mattpocockuk",
+      "name": "Matt Pocock",
+      "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
+      "text": "/grill-me is my most popular skill ever.\n\nI get 5-10 messages a day about how it’s changed people’s workflows for the better\n\nBut… I’ve stopped using it for code. Here’s the improved version: https://t.co/Nuviji95au",
+      "media": [
+        {
+          "url": "https://x.com/mattpocockuk/status/2054808143041908936/video/1",
+          "type": "image"
+        }
+      ],
+      "likes": 3130,
+      "retweets": 176,
+      "replies": 92,
+      "quotes": 11,
+      "tweet_url": "https://x.com/mattpocockuk/status/2054808143041908936",
+      "id": "2054808143041908936",
+      "created_at": "2026-05-14T06:16:52.000Z",
+      "themes": [
+        "Agent UX",
+        "DevTools"
+      ],
+      "signal": "🟡 Insight",
+      "source": "Curator"
+    },
+    {
+      "username": "mattpocockuk",
+      "name": "Matt Pocock",
+      "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
+      "text": "Two new skills this week!\n\n- /handoff compacts your current session to a markdown file\n- /prototype helps you prototype anything - UI or backend\n\nAnd a bunch more updates. Here's the changelog: https://t.co/MsINZhsocy",
+      "media": [
+        {
+          "url": "https://x.com/mattpocockuk/status/2053789346084331569/video/1",
+          "type": "image"
+        }
+      ],
+      "likes": 2529,
+      "retweets": 125,
+      "replies": 85,
+      "quotes": 7,
+      "tweet_url": "https://x.com/mattpocockuk/status/2053789346084331569",
+      "id": "2053789346084331569",
+      "created_at": "2026-05-11T10:48:32.000Z",
+      "themes": [
+        "Agent UX",
+        "TypeScript"
+      ],
+      "signal": "🟡 Insight",
+      "source": "Curator"
+    },
+    {
+      "username": "mattpocockuk",
+      "name": "Matt Pocock",
+      "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
+      "text": "A flow I just tried and LOVED:\n\n1. /grill-with-docs, talking about a new bit of UI\n2. Asks me a question I can't answer unless I prototype\n3. /prototype\n4. Iterate on the prototype, burning tokens freely until we get a good spot\n5. /rewind to the question, and select 'summarize'",
+      "media": [],
+      "likes": 2326,
+      "retweets": 89,
+      "replies": 74,
+      "quotes": 16,
+      "tweet_url": "https://x.com/mattpocockuk/status/2053459748532392343",
+      "id": "2053459748532392343",
+      "created_at": "2026-05-10T12:58:50.000Z",
+      "themes": [
+        "AI Engineering"
+      ],
+      "signal": "🟢 Discussion",
+      "source": "Community"
+    },
+    {
+      "username": "mattpocockuk",
+      "name": "Matt Pocock",
+      "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
+      "text": "/improve-codebase-architecture will soon output HTML\n\nThis rocks, thanks @trq212 https://t.co/RJWh0RCuW8",
+      "media": [
+        {
+          "url": "https://x.com/mattpocockuk/status/2054922772573303293/photo/1",
+          "type": "image"
+        },
+        {
+          "url": "https://x.com/mattpocockuk/status/2054922772573303293/photo/1",
+          "type": "image"
+        }
+      ],
+      "likes": 2239,
+      "retweets": 72,
+      "replies": 68,
+      "quotes": 7,
+      "tweet_url": "https://x.com/mattpocockuk/status/2054922772573303293",
+      "id": "2054922772573303293",
+      "created_at": "2026-05-14T13:52:22.000Z",
+      "themes": [
+        "AI Engineering"
+      ],
+      "signal": "🟡 Insight",
+      "source": "Curator"
+    },
+    {
+      "username": "mattpocockuk",
+      "name": "Matt Pocock",
+      "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
+      "text": "The more I replace plans with prototypes, the better the outputs\n\nWho'd have thought that low fidelity prototypes were better than walls of spec\n\nOh yeah, the entire industry for 20 years\n\nStop going against decades of knowledge because someone in SF shipped it as a 'mode' https://t.co/nKqQDmIlw7",
+      "media": [],
+      "likes": 2051,
+      "retweets": 115,
+      "replies": 123,
+      "quotes": 37,
+      "tweet_url": "https://x.com/mattpocockuk/status/2052437310302462173",
+      "id": "2052437310302462173",
+      "created_at": "2026-05-07T17:16:01.000Z",
+      "themes": [
+        "TypeScript",
+        "DevTools",
+        "AI Engineering"
+      ],
+      "signal": "🟡 Insight",
+      "source": "Curator"
+    },
+    {
+      "username": "kentcdodds",
+      "name": "Kent C. Dodds 🏹",
+      "avatar": "https://pbs.twimg.com/profile_images/1567269493608714241/6ACZo99k_normal.jpg",
+      "text": "Ok, I've had enough of this.\n\nI'm relieved that I never actually adopted RSC and at this point I'm convinced I never will. I'm now firmly in the camp of \"RSC was a bad idea.\"\n\nThe problems weren't made up. But this solution is not good. https://t.co/H09qkmcrY6",
+      "media": [],
+      "likes": 1831,
+      "retweets": 104,
+      "replies": 101,
+      "quotes": 21,
+      "tweet_url": "https://x.com/kentcdodds/status/2052541237656539271",
+      "id": "2052541237656539271",
+      "created_at": "2026-05-08T00:09:00.000Z",
+      "themes": [
+        "DevTools",
+        "AI Engineering"
+      ],
+      "signal": "🟡 Insight",
+      "source": "Curator"
+    },
+    {
+      "username": "mattpocockuk",
+      "name": "Matt Pocock",
+      "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
+      "text": "Anthropic has given us a \"dedicated monthly credit\"\n\nWhich, in effect, slashes AFK usage limits of Claude Code by ~5-20X\n\nHere's how it affects you: https://t.co/1nCCheqEC4",
+      "media": [
+        {
+          "url": "https://x.com/mattpocockuk/status/2054655310388674693/video/1",
+          "type": "image"
+        }
+      ],
+      "likes": 1635,
+      "retweets": 81,
+      "replies": 107,
+      "quotes": 27,
+      "tweet_url": "https://x.com/mattpocockuk/status/2054655310388674693",
+      "id": "2054655310388674693",
+      "created_at": "2026-05-13T20:09:34.000Z",
+      "themes": [
+        "Claude Code"
+      ],
+      "signal": "🟡 Insight",
+      "source": "Curator"
+    },
+    {
+      "username": "RhysSullivan",
+      "name": "Rhys",
+      "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
+      "text": "decided to go smurf in low elo https://t.co/N0MmAWt2dz https://t.co/DQ1VV4EtZm",
+      "media": [
+        {
+          "url": "https://x.com/RhysSullivan/status/2053966559824228749/photo/1",
+          "type": "image"
+        }
+      ],
+      "likes": 1719,
+      "retweets": 21,
+      "replies": 34,
+      "quotes": 0,
+      "tweet_url": "https://x.com/RhysSullivan/status/2053966559824228749",
+      "id": "2053966559824228749",
+      "created_at": "2026-05-11T22:32:43.000Z",
+      "themes": [
+        "DevTools"
+      ],
+      "signal": "🟢 Discussion",
+      "source": "Curator"
+    },
+    {
+      "username": "mattpocockuk",
+      "name": "Matt Pocock",
+      "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
+      "text": "This is super neat and I'll be trying this immediately https://t.co/mTHNaeODvx",
+      "media": [],
+      "likes": 1501,
+      "retweets": 69,
+      "replies": 87,
       "quotes": 1,
-      "tweet_url": "https://x.com/RhysSullivan/status/2056093174838563112",
-      "id": "2056093174838563112"
+      "tweet_url": "https://x.com/mattpocockuk/status/2053065993241477227",
+      "id": "2053065993241477227",
+      "created_at": "2026-05-09T10:54:11.000Z",
+      "themes": [
+        "AI Engineering"
+      ],
+      "signal": "🟡 Insight",
+      "source": "Curator"
+    },
+    {
+      "username": "RhysSullivan",
+      "name": "Rhys",
+      "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
+      "text": "I'm now building Executor full time as a startup!\n\nThe state of tool calling is a mess:\n- Everyone is using different agents\n- You have no idea what actions are going to run\n- Destructive actions are treated the same as normal\n\nExecutor lets you set up everything once &amp; use it https://t.co/toV09pwq1u",
+      "media": [
+        {
+          "url": "https://x.com/RhysSullivan/status/2052896456454119455/video/1",
+          "type": "image"
+        }
+      ],
+      "likes": 1445,
+      "retweets": 77,
+      "replies": 141,
+      "quotes": 11,
+      "tweet_url": "https://x.com/RhysSullivan/status/2052896456454119455",
+      "id": "2052896456454119455",
+      "created_at": "2026-05-08T23:40:30.000Z",
+      "themes": [
+        "Agent UX",
+        "DevTools"
+      ],
+      "signal": "🟡 Insight",
+      "source": "Curator"
+    },
+    {
+      "username": "mattpocockuk",
+      "name": "Matt Pocock",
+      "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
+      "text": "Long skills are such a red flag to me\n\n- Hard to audit (and therefore, trust)\n- Hard to edit (more text, harder to maintain)\n- Expensive to run (more text, more tokens)\n\nThe shorter the skill, the better IMO",
+      "media": [],
+      "likes": 1376,
+      "retweets": 51,
+      "replies": 145,
+      "quotes": 12,
+      "tweet_url": "https://x.com/mattpocockuk/status/2055298876093952489",
+      "id": "2055298876093952489",
+      "created_at": "2026-05-15T14:46:52.000Z",
+      "themes": [
+        "AI Engineering"
+      ],
+      "signal": "🟡 Insight",
+      "source": "Analyst"
+    },
+    {
+      "username": "Baconbrix",
+      "name": "Evan Bacon 🥓",
+      "avatar": "https://pbs.twimg.com/profile_images/1576625400205250561/wGfn72X__normal.jpg",
+      "text": "You can now 'inspect element' for any iOS app directly in Codex or the browser!\n\n~ / npx serve-sim\n\nS/O @rounak for the contribution 🚀 https://t.co/OsljNZSaVL",
+      "media": [
+        {
+          "url": "https://x.com/Baconbrix/status/2051748976916124114/video/1",
+          "type": "image"
+        }
+      ],
+      "likes": 1277,
+      "retweets": 84,
+      "replies": 48,
+      "quotes": 13,
+      "tweet_url": "https://x.com/Baconbrix/status/2051748976916124114",
+      "id": "2051748976916124114",
+      "created_at": "2026-05-05T19:40:50.000Z",
+      "themes": [
+        "Codex"
+      ],
+      "signal": "🟡 Insight",
+      "source": "Curator"
+    },
+    {
+      "username": "mattpocockuk",
+      "name": "Matt Pocock",
+      "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
+      "text": "How it started: Claude Code For Real Engineers\n\nHow it's going: AI Coding For Real Engineers",
+      "media": [],
+      "likes": 1350,
+      "retweets": 37,
+      "replies": 81,
+      "quotes": 9,
+      "tweet_url": "https://x.com/mattpocockuk/status/2055177489538756984",
+      "id": "2055177489538756984",
+      "created_at": "2026-05-15T06:44:31.000Z",
+      "themes": [
+        "Claude Code",
+        "AI Engineering"
+      ],
+      "signal": "🟡 Insight",
+      "source": "Analyst"
+    },
+    {
+      "username": "mattpocockuk",
+      "name": "Matt Pocock",
+      "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
+      "text": "mattpocock/skills: 60K\ngarrytan/gstack: 90K\n\nI'm coming for you Garry",
+      "media": [],
+      "likes": 1379,
+      "retweets": 21,
+      "replies": 52,
+      "quotes": 3,
+      "tweet_url": "https://x.com/mattpocockuk/status/2051714098170102111",
+      "id": "2051714098170102111",
+      "created_at": "2026-05-05T17:22:14.000Z",
+      "themes": [
+        "AI Engineering"
+      ],
+      "signal": "🟢 Discussion",
+      "source": "Analyst"
+    },
+    {
+      "username": "mattpocockuk",
+      "name": "Matt Pocock",
+      "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
+      "text": "Sounds mad, but maybe I should just make a course about writing great skills?\n\nI.e. for actual life/work productivity, not just dev.\n\nBreaking down daily tasks into skills. Turning HITL tasks into AFK ones. Creating a working language with the agent.\n\nFeels pretty deep",
+      "media": [],
+      "likes": 1283,
+      "retweets": 23,
+      "replies": 103,
+      "quotes": 4,
+      "tweet_url": "https://x.com/mattpocockuk/status/2052132647770452286",
+      "id": "2052132647770452286",
+      "created_at": "2026-05-06T21:05:24.000Z",
+      "themes": [
+        "Agent UX",
+        "AI Engineering"
+      ],
+      "signal": "🔴 Signal",
+      "source": "Builder"
+    },
+    {
+      "username": "mattpocockuk",
+      "name": "Matt Pocock",
+      "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
+      "text": "What do you do if someone on your team is using AI negligently?\n\nI.e. not reviewing, not caring, leaning into the slop.\n\nThis, of course, was a problem pre-AI. But the \"code is cheap\" mind virus is making it worse IMO.",
+      "media": [],
+      "likes": 1251,
+      "retweets": 39,
+      "replies": 169,
+      "quotes": 11,
+      "tweet_url": "https://x.com/mattpocockuk/status/2050860119928262883",
+      "id": "2050860119928262883",
+      "created_at": "2026-05-03T08:48:50.000Z",
+      "themes": [
+        "AI Engineering"
+      ],
+      "signal": "🟢 Discussion",
+      "source": "Community"
+    },
+    {
+      "username": "colinhacks",
+      "name": "colinhacks/zod",
+      "avatar": "https://pbs.twimg.com/profile_images/1580243602684395520/aqyWgB1y_normal.jpg",
+      "text": "introducing Pullfrog — the open source CodeRabbit alternative that runs in GitHub Actions\n\n🐸 OSS\n🐸 model-agnostic\n🐸 transparent pricing: 7¢/run (plus model costs)\n🐸 BYOK (or use our at-cost model router)\n🐸 does PR review, issue triage, coding tasks, etc (just tag @ pullfrog) https://t.co/1ssus1o5oU",
+      "media": [
+        {
+          "url": "https://x.com/colinhacks/status/2054260900144812438/photo/1",
+          "type": "image"
+        }
+      ],
+      "likes": 1079,
+      "retweets": 62,
+      "replies": 43,
+      "quotes": 3,
+      "tweet_url": "https://x.com/colinhacks/status/2054260900144812438",
+      "id": "2054260900144812438",
+      "created_at": "2026-05-12T18:02:19.000Z",
+      "themes": [
+        "OSS",
+        "AI Engineering"
+      ],
+      "signal": "🟡 Insight",
+      "source": "Curator"
     },
     {
       "username": "RhysSullivan",
       "name": "Rhys",
       "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
       "text": "the average person has only ever used ChatGPT 3.5 Instant and has no idea what the models can do https://t.co/RBcJqOe2eQ https://t.co/q1LZgxDU4E",
+      "media": [
+        {
+          "url": "https://x.com/RhysSullivan/status/2056087712273424797/photo/1",
+          "type": "image"
+        }
+      ],
+      "likes": 1078,
+      "retweets": 23,
+      "replies": 18,
+      "quotes": 8,
+      "tweet_url": "https://x.com/RhysSullivan/status/2056087712273424797",
+      "id": "2056087712273424797",
+      "created_at": "2026-05-17T19:01:25.000Z",
       "themes": [
         "Codex",
         "DevTools",
         "AI Engineering"
       ],
       "signal": "🟡 Insight",
-      "source": "Curator",
-      "likes": 1078,
+      "source": "Curator"
+    },
+    {
+      "username": "kentcdodds",
+      "name": "Kent C. Dodds 🏹",
+      "avatar": "https://pbs.twimg.com/profile_images/1567269493608714241/6ACZo99k_normal.jpg",
+      "text": "My mother carried and raised 12 babies to adulthood. Now she's the proud grandparent of 63 grandchildren and 6 great-grandchildren (so far). She's a superhero.",
+      "media": [],
+      "likes": 1080,
+      "retweets": 15,
+      "replies": 45,
+      "quotes": 4,
+      "tweet_url": "https://x.com/kentcdodds/status/2053650827148157305",
+      "id": "2053650827148157305",
+      "created_at": "2026-05-11T01:38:06.000Z",
+      "themes": [
+        "AI Engineering"
+      ],
+      "signal": "🔴 Signal",
+      "source": "Builder"
+    },
+    {
+      "username": "mattpocockuk",
+      "name": "Matt Pocock",
+      "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
+      "text": "I gave a viral talk recently, and @swyx asked me to put something together to explain how I did it - to help future AIE speakers and anyone who wants to learn.\n\nI am, oddly, extremely qualified to do this because I spent 6 years as a voice coach. So I've not only given countless",
+      "media": [],
+      "likes": 988,
+      "retweets": 61,
+      "replies": 33,
+      "quotes": 6,
+      "tweet_url": "https://x.com/mattpocockuk/status/2052644435427479883",
+      "id": "2052644435427479883",
+      "created_at": "2026-05-08T06:59:04.000Z",
+      "themes": [
+        "AI Engineering"
+      ],
+      "signal": "🟢 Discussion",
+      "source": "Community"
+    },
+    {
+      "username": "Baconbrix",
+      "name": "Evan Bacon 🥓",
+      "avatar": "https://pbs.twimg.com/profile_images/1576625400205250561/wGfn72X__normal.jpg",
+      "text": "In the next version of serve-sim\n\nSimulate walking, biking, and driving for any Apple app\n\nWorks with any browser or agent https://t.co/IC390Ilwu6",
+      "media": [
+        {
+          "url": "https://x.com/Baconbrix/status/2053127857950384173/video/1",
+          "type": "image"
+        }
+      ],
+      "likes": 942,
+      "retweets": 39,
+      "replies": 25,
+      "quotes": 1,
+      "tweet_url": "https://x.com/Baconbrix/status/2053127857950384173",
+      "id": "2053127857950384173",
+      "created_at": "2026-05-09T15:00:01.000Z",
+      "themes": [
+        "Agent UX"
+      ],
+      "signal": "🟡 Insight",
+      "source": "Curator"
+    },
+    {
+      "username": "RhysSullivan",
+      "name": "Rhys",
+      "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
+      "text": "they're gonna ban running claude code in tmux next bro 😭 https://t.co/t5KMeriTJR",
+      "media": [],
+      "likes": 969,
+      "retweets": 16,
+      "replies": 41,
+      "quotes": 3,
+      "tweet_url": "https://x.com/RhysSullivan/status/2054775063354966365",
+      "id": "2054775063354966365",
+      "created_at": "2026-05-14T04:05:25.000Z",
+      "themes": [
+        "Claude Code"
+      ],
+      "signal": "🟡 Insight",
+      "source": "Curator"
+    },
+    {
+      "username": "mattpocockuk",
+      "name": "Matt Pocock",
+      "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
+      "text": "Think I might need to revisit Effect on my YouTube channel\n\nThere is literally no better AX for building backend stuff in TypeScript.\n\nOnce you see it through that lens it's addictive",
+      "media": [],
+      "likes": 906,
+      "retweets": 34,
+      "replies": 61,
+      "quotes": 5,
+      "tweet_url": "https://x.com/mattpocockuk/status/2055674264695496901",
+      "id": "2055674264695496901",
+      "created_at": "2026-05-16T15:38:31.000Z",
+      "themes": [
+        "TypeScript",
+        "DevTools"
+      ],
+      "signal": "🟡 Insight",
+      "source": "Analyst"
+    },
+    {
+      "username": "Baconbrix",
+      "name": "Evan Bacon 🥓",
+      "avatar": "https://pbs.twimg.com/profile_images/1576625400205250561/wGfn72X__normal.jpg",
+      "text": "You can now build iOS camera apps directly in Codex!\n\n~ / npx serve-sim\n\nAgents can even use video files to develop headlessly in the cloud, run e2e tests, and work in parallel.\n\nNo more bottleneck on physical sensors! https://t.co/QDPORwc3bw",
+      "media": [
+        {
+          "url": "https://x.com/Baconbrix/status/2054203190128566359/video/1",
+          "type": "image"
+        }
+      ],
+      "likes": 840,
+      "retweets": 53,
+      "replies": 38,
+      "quotes": 6,
+      "tweet_url": "https://x.com/Baconbrix/status/2054203190128566359",
+      "id": "2054203190128566359",
+      "created_at": "2026-05-12T14:13:00.000Z",
+      "themes": [
+        "Agent UX",
+        "Codex",
+        "DevTools"
+      ],
+      "signal": "🟡 Insight",
+      "source": "Curator"
+    },
+    {
+      "username": "mattpocockuk",
+      "name": "Matt Pocock",
+      "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
+      "text": "Really, really tempted to make a /learn-to-code skill",
+      "media": [],
+      "likes": 900,
+      "retweets": 18,
+      "replies": 120,
+      "quotes": 2,
+      "tweet_url": "https://x.com/mattpocockuk/status/2054285379172225262",
+      "id": "2054285379172225262",
+      "created_at": "2026-05-12T19:39:35.000Z",
+      "themes": [
+        "AI Engineering"
+      ],
+      "signal": "🟢 Discussion",
+      "source": "Analyst"
+    },
+    {
+      "username": "RhysSullivan",
+      "name": "Rhys",
+      "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
+      "text": "emmett shear catching a stray https://t.co/ZKafXyoG7D https://t.co/yMmmC3BCo8",
+      "media": [
+        {
+          "url": "https://x.com/RhysSullivan/status/2052163746748064122/photo/1",
+          "type": "image"
+        }
+      ],
+      "likes": 905,
+      "retweets": 14,
+      "replies": 14,
+      "quotes": 2,
+      "tweet_url": "https://x.com/RhysSullivan/status/2052163746748064122",
+      "id": "2052163746748064122",
+      "created_at": "2026-05-06T23:08:59.000Z",
+      "themes": [
+        "AI Engineering"
+      ],
+      "signal": "🟢 Discussion",
+      "source": "Curator"
+    },
+    {
+      "username": "RhysSullivan",
+      "name": "Rhys",
+      "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
+      "text": "The Bun Zig -&gt; Rust rewrite has me thinking about how important it is to have you tests in a separate language / method than you implementation\n\nThis has always mattered but matters even more now. The reason they know the rewrite works is because nothing about the tests changed",
+      "media": [],
+      "likes": 880,
       "retweets": 23,
-      "replies": 18,
-      "quotes": 8,
-      "tweet_url": "https://x.com/RhysSullivan/status/2056087712273424797",
-      "id": "2056087712273424797"
+      "replies": 37,
+      "quotes": 9,
+      "tweet_url": "https://x.com/RhysSullivan/status/2053238350648406378",
+      "id": "2053238350648406378",
+      "created_at": "2026-05-09T22:19:04.000Z",
+      "themes": [
+        "TypeScript"
+      ],
+      "signal": "🟡 Insight",
+      "source": "Analyst"
+    },
+    {
+      "username": "mattpocockuk",
+      "name": "Matt Pocock",
+      "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
+      "text": "This video has 96K hours of watch time\n\nThat's over a decade\n\nStill have to pinch myself sometimes\n\nhttps://t.co/gMtfs17H9k",
+      "media": [],
+      "likes": 814,
+      "retweets": 46,
+      "replies": 31,
+      "quotes": 2,
+      "tweet_url": "https://x.com/mattpocockuk/status/2053583757743911232",
+      "id": "2053583757743911232",
+      "created_at": "2026-05-10T21:11:36.000Z",
+      "themes": [
+        "DevTools"
+      ],
+      "signal": "🟡 Insight",
+      "source": "Curator"
+    },
+    {
+      "username": "mattpocockuk",
+      "name": "Matt Pocock",
+      "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
+      "text": "Building a skill that helps you prototype business logic\n\nIt builds a TUI to help you shortcut through state transitions\n\nSO much better than a spec for providing fine-grained feedback\n\nWatch the skills repo for /prototype https://t.co/qyNwt8ag1P",
+      "media": [
+        {
+          "url": "https://x.com/mattpocockuk/status/2051914199081652641/photo/1",
+          "type": "image"
+        }
+      ],
+      "likes": 821,
+      "retweets": 33,
+      "replies": 26,
+      "quotes": 2,
+      "tweet_url": "https://x.com/mattpocockuk/status/2051914199081652641",
+      "id": "2051914199081652641",
+      "created_at": "2026-05-06T06:37:22.000Z",
+      "themes": [
+        "OSS",
+        "DevTools",
+        "AI Engineering"
+      ],
+      "signal": "🟢 Discussion",
+      "source": "Community"
+    },
+    {
+      "username": "Baconbrix",
+      "name": "Evan Bacon 🥓",
+      "avatar": "https://pbs.twimg.com/profile_images/1576625400205250561/wGfn72X__normal.jpg",
+      "text": "Just open-sourced a new template for building AI chatbot apps like Claude with Expo Router!\n\n⬦ Runs on iOS, Android, and web\n⬦ Stream any model with AI SDK\n⬦ Tailwind styles for theming\n⬦ Smooth keyboard handling\n⬦ Liquid Glass and iOS 18\n\nLink below ↓ https://t.co/pDEWOahxnX",
+      "media": [
+        {
+          "url": "https://x.com/Baconbrix/status/2054587962516820214/video/1",
+          "type": "image"
+        }
+      ],
+      "likes": 755,
+      "retweets": 47,
+      "replies": 27,
+      "quotes": 3,
+      "tweet_url": "https://x.com/Baconbrix/status/2054587962516820214",
+      "id": "2054587962516820214",
+      "created_at": "2026-05-13T15:41:57.000Z",
+      "themes": [
+        "Claude Code",
+        "OSS",
+        "DevTools",
+        "AI Engineering"
+      ],
+      "signal": "🟡 Insight",
+      "source": "Curator"
+    },
+    {
+      "username": "RhysSullivan",
+      "name": "Rhys",
+      "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
+      "text": "i really wish the codex app was open source, so many small tweaks i want to make to it to better suit my workflow\n\ngenuinely really well made piece of software it feels so smooth, i was unfamiliar with openai's game",
+      "media": [],
+      "likes": 791,
+      "retweets": 11,
+      "replies": 60,
+      "quotes": 6,
+      "tweet_url": "https://x.com/RhysSullivan/status/2055524681994883187",
+      "id": "2055524681994883187",
+      "created_at": "2026-05-16T05:44:08.000Z",
+      "themes": [
+        "Agent UX",
+        "Codex",
+        "OSS",
+        "DevTools",
+        "AI Engineering"
+      ],
+      "signal": "🟡 Insight",
+      "source": "Analyst"
+    },
+    {
+      "username": "mattpocockuk",
+      "name": "Matt Pocock",
+      "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
+      "text": "Way too many folks are concerned about total tokens\n\nWhen the right metric is value per token",
+      "media": [],
+      "likes": 696,
+      "retweets": 39,
+      "replies": 85,
+      "quotes": 14,
+      "tweet_url": "https://x.com/mattpocockuk/status/2053114415877165089",
+      "id": "2053114415877165089",
+      "created_at": "2026-05-09T14:06:36.000Z",
+      "themes": [
+        "AI Engineering"
+      ],
+      "signal": "🟡 Insight",
+      "source": "Analyst"
+    },
+    {
+      "username": "RhysSullivan",
+      "name": "Rhys",
+      "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
+      "text": "how it feels to open 50 slop PRs on your own repo https://t.co/QspiON7K9z",
+      "media": [
+        {
+          "url": "https://x.com/RhysSullivan/status/2051832983213248642/photo/1",
+          "type": "image"
+        }
+      ],
+      "likes": 686,
+      "retweets": 10,
+      "replies": 17,
+      "quotes": 0,
+      "tweet_url": "https://x.com/RhysSullivan/status/2051832983213248642",
+      "id": "2051832983213248642",
+      "created_at": "2026-05-06T01:14:39.000Z",
+      "themes": [
+        "OSS",
+        "AI Engineering"
+      ],
+      "signal": "🟡 Insight",
+      "source": "Curator"
+    },
+    {
+      "username": "mattpocockuk",
+      "name": "Matt Pocock",
+      "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
+      "text": "At what point do I start being \"that bald guy with the skills\"",
+      "media": [],
+      "likes": 665,
+      "retweets": 8,
+      "replies": 106,
+      "quotes": 4,
+      "tweet_url": "https://x.com/mattpocockuk/status/2052141395092160946",
+      "id": "2052141395092160946",
+      "created_at": "2026-05-06T21:40:10.000Z",
+      "themes": [
+        "AI Engineering"
+      ],
+      "signal": "🟡 Insight",
+      "source": "Analyst"
+    },
+    {
+      "username": "mattpocockuk",
+      "name": "Matt Pocock",
+      "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
+      "text": "On the skill bench today: a /review skill\n\n- Checks against original spec\n- Checks against coding standards\n\n- Proposes changes to the code (obviously)\n- Proposes changes to the agent loop that created the code",
+      "media": [],
+      "likes": 639,
+      "retweets": 19,
+      "replies": 39,
+      "quotes": 3,
+      "tweet_url": "https://x.com/mattpocockuk/status/2052309023618109936",
+      "id": "2052309023618109936",
+      "created_at": "2026-05-07T08:46:15.000Z",
+      "themes": [
+        "Agent UX",
+        "AI Engineering"
+      ],
+      "signal": "🟡 Insight",
+      "source": "Analyst"
+    },
+    {
+      "username": "RhysSullivan",
+      "name": "Rhys",
+      "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
+      "text": "This is what the group chat with you &amp; the boys needs to look like in 10 years https://t.co/1FC84yrkXH",
+      "media": [
+        {
+          "url": "https://x.com/RhysSullivan/status/2052223244871385547/photo/1",
+          "type": "image"
+        }
+      ],
+      "likes": 632,
+      "retweets": 5,
+      "replies": 5,
+      "quotes": 0,
+      "tweet_url": "https://x.com/RhysSullivan/status/2052223244871385547",
+      "id": "2052223244871385547",
+      "created_at": "2026-05-07T03:05:24.000Z",
+      "themes": [
+        "AI Engineering"
+      ],
+      "signal": "🟡 Insight",
+      "source": "Curator"
+    },
+    {
+      "username": "RhysSullivan",
+      "name": "Rhys",
+      "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
+      "text": "if ORMs are wrong why do they feel so right",
+      "media": [],
+      "likes": 609,
+      "retweets": 12,
+      "replies": 100,
+      "quotes": 11,
+      "tweet_url": "https://x.com/RhysSullivan/status/2055039728165224469",
+      "id": "2055039728165224469",
+      "created_at": "2026-05-14T21:37:06.000Z",
+      "themes": [
+        "AI Engineering"
+      ],
+      "signal": "🟢 Discussion",
+      "source": "Community"
+    },
+    {
+      "username": "mattpocockuk",
+      "name": "Matt Pocock",
+      "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
+      "text": "TIL:\n\nDX: Developer Experience\nAX: Agent Experience\n\nAX is an awesome descriptor for something I've been thinking about - how well an agent can perform in your codebase\n\nHow well-architected it is. How good the feedback loops are. How discoverable information is.\n\nLove it. https://t.co/WOpVashrhZ",
+      "media": [],
+      "likes": 580,
+      "retweets": 22,
+      "replies": 60,
+      "quotes": 11,
+      "tweet_url": "https://x.com/mattpocockuk/status/2055267400308654319",
+      "id": "2055267400308654319",
+      "created_at": "2026-05-15T12:41:47.000Z",
+      "themes": [
+        "Agent UX",
+        "DevTools"
+      ],
+      "signal": "🟡 Insight",
+      "source": "Curator"
+    },
+    {
+      "username": "mattpocockuk",
+      "name": "Matt Pocock",
+      "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
+      "text": "Pump the classics into my veins https://t.co/tjX1gFoUzC",
+      "media": [
+        {
+          "url": "https://x.com/mattpocockuk/status/2056042537547080076/photo/1",
+          "type": "image"
+        }
+      ],
+      "likes": 591,
+      "retweets": 16,
+      "replies": 34,
+      "quotes": 5,
+      "tweet_url": "https://x.com/mattpocockuk/status/2056042537547080076",
+      "id": "2056042537547080076",
+      "created_at": "2026-05-17T16:01:55.000Z",
+      "themes": [
+        "AI Engineering"
+      ],
+      "signal": "🟢 Discussion",
+      "source": "Curator"
+    },
+    {
+      "username": "RhysSullivan",
+      "name": "Rhys",
+      "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
+      "text": "buddy doesn't know about /goal \"remove all unsafe calls\" https://t.co/IIfMzZFw9e",
+      "media": [],
+      "likes": 604,
+      "retweets": 4,
+      "replies": 12,
+      "quotes": 1,
+      "tweet_url": "https://x.com/RhysSullivan/status/2054272679440703830",
+      "id": "2054272679440703830",
+      "created_at": "2026-05-12T18:49:07.000Z",
+      "themes": [
+        "AI Engineering"
+      ],
+      "signal": "🟡 Insight",
+      "source": "Curator"
+    },
+    {
+      "username": "mattpocockuk",
+      "name": "Matt Pocock",
+      "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
+      "text": "Context Pointers are a crucial concept for helping AI navigate your codebase.\n\nThey're the links you put in documents to link to others, so that AI can find its way around without being overwhelmed.\n\n\"Our AGENTS.md used to be huge, now it's mostly context pointers.\"\n\n\"These",
+      "media": [],
+      "likes": 543,
+      "retweets": 18,
+      "replies": 41,
+      "quotes": 2,
+      "tweet_url": "https://x.com/mattpocockuk/status/2051587758238371858",
+      "id": "2051587758238371858",
+      "created_at": "2026-05-05T09:00:12.000Z",
+      "themes": [
+        "Agent UX",
+        "AI Engineering"
+      ],
+      "signal": "🟡 Insight",
+      "source": "Analyst"
+    },
+    {
+      "username": "RhysSullivan",
+      "name": "Rhys",
+      "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
+      "text": "executor now has a desktop app!\n\nadd whatever MCPs / OpenAPIs / GraphQL servers you want once and then every agent can use them\n\nconverts them all into code mode under the hood, so you can have thousands of tools and no context bloat\n\neverything stays 100% local on your device https://t.co/0p4ouYD1DT",
+      "media": [
+        {
+          "url": "https://x.com/RhysSullivan/status/2054365791060218314/video/1",
+          "type": "image"
+        }
+      ],
+      "likes": 478,
+      "retweets": 27,
+      "replies": 41,
+      "quotes": 4,
+      "tweet_url": "https://x.com/RhysSullivan/status/2054365791060218314",
+      "id": "2054365791060218314",
+      "created_at": "2026-05-13T00:59:07.000Z",
+      "themes": [
+        "Agent UX"
+      ],
+      "signal": "🟡 Insight",
+      "source": "Curator"
+    },
+    {
+      "username": "kentcdodds",
+      "name": "Kent C. Dodds 🏹",
+      "avatar": "https://pbs.twimg.com/profile_images/1567269493608714241/6ACZo99k_normal.jpg",
+      "text": "Now all supported Node.js versions can run TS natively via type stripping 🔥\n\nhttps://t.co/YJzL9ZRp42",
+      "media": [],
+      "likes": 415,
+      "retweets": 33,
+      "replies": 10,
+      "quotes": 4,
+      "tweet_url": "https://x.com/kentcdodds/status/2052454264715522330",
+      "id": "2052454264715522330",
+      "created_at": "2026-05-07T18:23:24.000Z",
+      "themes": [
+        "TypeScript"
+      ],
+      "signal": "🟡 Insight",
+      "source": "Curator"
+    },
+    {
+      "username": "mattpocockuk",
+      "name": "Matt Pocock",
+      "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
+      "text": "AI is making me obsessed with language\n\nTaking abstract business processes and naming them is INSANELY powerful for aligning AI with how you work\n\nI don't scan X for inspiration for course material/socials\n\nI capture notes (either as hooks and bricks) from the X channel\n\nThis",
+      "media": [],
+      "likes": 447,
+      "retweets": 13,
+      "replies": 42,
+      "quotes": 2,
+      "tweet_url": "https://x.com/mattpocockuk/status/2052773398011367904",
+      "id": "2052773398011367904",
+      "created_at": "2026-05-08T15:31:31.000Z",
+      "themes": [
+        "AI Engineering"
+      ],
+      "signal": "🟡 Insight",
+      "source": "Analyst"
+    },
+    {
+      "username": "RhysSullivan",
+      "name": "Rhys",
+      "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
+      "text": "What are some good large open source Effect codebases with established patterns in them?\n\nI've got two:\n- https://t.co/G8uVOtxH8l effect v3\n- https://t.co/00WiNPHgww effect v4\n\nThey're both decent but wanting to improve the amount of references I can give my agent",
+      "media": [],
+      "likes": 439,
+      "retweets": 16,
+      "replies": 34,
+      "quotes": 1,
+      "tweet_url": "https://x.com/RhysSullivan/status/2052082752883921282",
+      "id": "2052082752883921282",
+      "created_at": "2026-05-06T17:47:08.000Z",
+      "themes": [
+        "Agent UX",
+        "OSS"
+      ],
+      "signal": "🟡 Insight",
+      "source": "Curator"
+    },
+    {
+      "username": "RhysSullivan",
+      "name": "Rhys",
+      "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
+      "text": "With agents writing code I’ve become more bullish than ever on Effect and the problems it solves\n\nIf you’re not using it, I’m curious on why and what you’re using instead to solve the same challenges - interested to see what the ecosystem looks like",
+      "media": [],
+      "likes": 425,
+      "retweets": 12,
+      "replies": 61,
+      "quotes": 4,
+      "tweet_url": "https://x.com/RhysSullivan/status/2053197707637113153",
+      "id": "2053197707637113153",
+      "created_at": "2026-05-09T19:37:34.000Z",
+      "themes": [
+        "Agent UX"
+      ],
+      "signal": "🟡 Insight",
+      "source": "Analyst"
+    },
+    {
+      "username": "mattpocockuk",
+      "name": "Matt Pocock",
+      "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
+      "text": "For anyone asking about how you'd use /prototype to test pure logic, this is a great example\n\nIt built this guy an interactive TUI: https://t.co/qD9k0jrjH9",
+      "media": [],
+      "likes": 410,
+      "retweets": 19,
+      "replies": 11,
+      "quotes": 0,
+      "tweet_url": "https://x.com/mattpocockuk/status/2054855404052513133",
+      "id": "2054855404052513133",
+      "created_at": "2026-05-14T09:24:40.000Z",
+      "themes": [
+        "AI Engineering"
+      ],
+      "signal": "🟢 Discussion",
+      "source": "Community"
+    },
+    {
+      "username": "RhysSullivan",
+      "name": "Rhys",
+      "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
+      "text": "there's never been a better time to be mid\n\nyou can't be so oneshotted that you're ripping psychosis slop on main\n\nbut you can't be so anti ai that you're not learning what these tools can do\n\nshoutout to the mids",
+      "media": [],
+      "likes": 409,
+      "retweets": 16,
+      "replies": 41,
+      "quotes": 6,
+      "tweet_url": "https://x.com/RhysSullivan/status/2055419648699723886",
+      "id": "2055419648699723886",
+      "created_at": "2026-05-15T22:46:46.000Z",
+      "themes": [
+        "AI Engineering"
+      ],
+      "signal": "🟡 Insight",
+      "source": "Analyst"
+    },
+    {
+      "username": "RhysSullivan",
+      "name": "Rhys",
+      "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
+      "text": "it's pretty cool we're seeing history get made here\n\nregardless of if bun pulls off the rewrite, software engineering is fundamentally different than it was 2 years ago https://t.co/TZjFlKZcQw",
+      "media": [],
+      "likes": 401,
+      "retweets": 18,
+      "replies": 15,
+      "quotes": 0,
+      "tweet_url": "https://x.com/RhysSullivan/status/2054944813427147019",
+      "id": "2054944813427147019",
+      "created_at": "2026-05-14T15:19:57.000Z",
+      "themes": [
+        "TypeScript"
+      ],
+      "signal": "🟡 Insight",
+      "source": "Curator"
+    },
+    {
+      "username": "RhysSullivan",
+      "name": "Rhys",
+      "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
+      "text": "sub agents implies the existence of dom agents",
+      "media": [],
+      "likes": 418,
+      "retweets": 8,
+      "replies": 31,
+      "quotes": 4,
+      "tweet_url": "https://x.com/RhysSullivan/status/2053660382171201582",
+      "id": "2053660382171201582",
+      "created_at": "2026-05-11T02:16:04.000Z",
+      "themes": [
+        "Agent UX"
+      ],
+      "signal": "🟢 Discussion",
+      "source": "Analyst"
+    },
+    {
+      "is_reply": true,
+      "parent": {
+        "username": "mattpocockuk",
+        "name": "Matt Pocock",
+        "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
+        "text": "The more I replace plans with prototypes, the better the outputs\n\nWho'd have thought that low fidelity prototypes were better than walls of spec\n\nOh yeah, the entire industry for 20 years\n\nStop going against decades of knowledge because someone in SF shipped it as a 'mode' https://t.co/nKqQDmIlw7",
+        "tweet_url": "https://x.com/mattpocockuk/status/2052437310302462173",
+        "media": [],
+        "likes": 2051,
+        "retweets": 115
+      },
+      "reply": {
+        "username": "mattpocockuk",
+        "name": "Matt Pocock",
+        "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
+        "text": "This is a note to my future self, too\n\nStop being so credulous\n\nQuestion everything \n\nUse your gut",
+        "media": [],
+        "likes": 189,
+        "retweets": 6,
+        "replies": 7,
+        "quotes": 0,
+        "tweet_url": "https://x.com/mattpocockuk/status/2052438268512256061",
+        "id": "2052438268512256061",
+        "created_at": "2026-05-07T17:19:50.000Z",
+        "themes": [
+          "AI Engineering"
+        ],
+        "signal": "🟢 Discussion",
+        "source": "Community"
+      },
+      "likes": 189,
+      "retweets": 6
+    },
+    {
+      "is_reply": true,
+      "parent": {
+        "username": "mattpocockuk",
+        "name": "Matt Pocock",
+        "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
+        "text": "Creating prototypes during planning is the new \"make no mistakes\"\n\nExcept it actually works",
+        "tweet_url": "https://x.com/mattpocockuk/status/2054197055589921142",
+        "media": [],
+        "likes": 381,
+        "retweets": 8
+      },
+      "reply": {
+        "username": "mattpocockuk",
+        "name": "Matt Pocock",
+        "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
+        "text": "1. I wanted to create an automatic chapter creator for my videos\n2. I did /grill-with-docs with the agent to figure out what I wanted\n3. I said 'let's prototype the prompt passed to the agent' not really knowing what to expect\n4. It built an entire TUI (in @EffectTS_) for me,",
+        "media": [],
+        "likes": 183,
+        "retweets": 2,
+        "replies": 14,
+        "quotes": 1,
+        "tweet_url": "https://x.com/mattpocockuk/status/2054197498214756449",
+        "id": "2054197498214756449",
+        "created_at": "2026-05-12T13:50:23.000Z",
+        "themes": [
+          "Agent UX",
+          "DevTools",
+          "AI Engineering"
+        ],
+        "signal": "🟡 Insight",
+        "source": "Analyst"
+      },
+      "likes": 183,
+      "retweets": 2
+    },
+    {
+      "is_reply": true,
+      "parent": {
+        "username": "mattpocockuk",
+        "name": "Matt Pocock",
+        "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
+        "text": "At what point do I start being \"that bald guy with the skills\"",
+        "tweet_url": "https://x.com/mattpocockuk/status/2052141395092160946",
+        "media": [],
+        "likes": 665,
+        "retweets": 8
+      },
+      "reply": {
+        "username": "mattpocockuk",
+        "name": "Matt Pocock",
+        "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
+        "text": "Some context for new followers. My SEO is off the chain: https://t.co/bI5qATRzIh",
+        "media": [
+          {
+            "url": "https://x.com/mattpocockuk/status/2052141643004878912/photo/1",
+            "type": "image"
+          }
+        ],
+        "likes": 167,
+        "retweets": 1,
+        "replies": 7,
+        "quotes": 0,
+        "tweet_url": "https://x.com/mattpocockuk/status/2052141643004878912",
+        "id": "2052141643004878912",
+        "created_at": "2026-05-06T21:41:09.000Z",
+        "themes": [
+          "AI Engineering"
+        ],
+        "signal": "🟡 Insight",
+        "source": "Curator"
+      },
+      "likes": 167,
+      "retweets": 1
+    },
+    {
+      "is_reply": true,
+      "parent": {
+        "username": "mattpocockuk",
+        "name": "Matt Pocock",
+        "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
+        "text": "Really, really tempted to make a /learn-to-code skill",
+        "tweet_url": "https://x.com/mattpocockuk/status/2054285379172225262",
+        "media": [],
+        "likes": 900,
+        "retweets": 18
+      },
+      "reply": {
+        "username": "mattpocockuk",
+        "name": "Matt Pocock",
+        "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
+        "text": "I genuinely think AI is an amazing teaching tool, but it just needs to be harnessed the right way",
+        "media": [],
+        "likes": 156,
+        "retweets": 1,
+        "replies": 13,
+        "quotes": 1,
+        "tweet_url": "https://x.com/mattpocockuk/status/2054287575918014835",
+        "id": "2054287575918014835",
+        "created_at": "2026-05-12T19:48:19.000Z",
+        "themes": [
+          "AI Engineering"
+        ],
+        "signal": "🟢 Discussion",
+        "source": "Community"
+      },
+      "likes": 156,
+      "retweets": 1
+    },
+    {
+      "is_reply": true,
+      "parent": {
+        "username": "kentcdodds",
+        "name": "Kent C. Dodds 🏹",
+        "avatar": "https://pbs.twimg.com/profile_images/1567269493608714241/6ACZo99k_normal.jpg",
+        "text": "Ok, I've had enough of this.\n\nI'm relieved that I never actually adopted RSC and at this point I'm convinced I never will. I'm now firmly in the camp of \"RSC was a bad idea.\"\n\nThe problems weren't made up. But this solution is not good. https://t.co/H09qkmcrY6",
+        "tweet_url": "https://x.com/kentcdodds/status/2052541237656539271",
+        "media": [],
+        "likes": 1831,
+        "retweets": 104
+      },
+      "reply": {
+        "username": "kentcdodds",
+        "name": "Kent C. Dodds 🏹",
+        "avatar": "https://pbs.twimg.com/profile_images/1567269493608714241/6ACZo99k_normal.jpg",
+        "text": "I was waiting for stable support in React Router before really diving in deep on RSC. But nope. I'm out. I don't have time for this.",
+        "media": [],
+        "likes": 145,
+        "retweets": 1,
+        "replies": 4,
+        "quotes": 0,
+        "tweet_url": "https://x.com/kentcdodds/status/2052541393823010846",
+        "id": "2052541393823010846",
+        "created_at": "2026-05-08T00:09:37.000Z",
+        "themes": [
+          "TypeScript",
+          "AI Engineering"
+        ],
+        "signal": "🟢 Discussion",
+        "source": "Community"
+      },
+      "likes": 145,
+      "retweets": 1
+    },
+    {
+      "is_reply": true,
+      "parent": {
+        "username": "mattpocockuk",
+        "name": "Matt Pocock",
+        "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
+        "text": "I genuinely think AI is an amazing teaching tool, but it just needs to be harnessed the right way",
+        "tweet_url": "https://x.com/mattpocockuk/status/2054287575918014835",
+        "media": [],
+        "likes": 156,
+        "retweets": 1
+      },
+      "reply": {
+        "username": "mattpocockuk",
+        "name": "Matt Pocock",
+        "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
+        "text": "I have a ton of folks who want to take my courses but don't feel their coding skills will match up, so I have a financial incentive to build something great here",
+        "media": [],
+        "likes": 136,
+        "retweets": 1,
+        "replies": 8,
+        "quotes": 0,
+        "tweet_url": "https://x.com/mattpocockuk/status/2054287751000854777",
+        "id": "2054287751000854777",
+        "created_at": "2026-05-12T19:49:01.000Z",
+        "themes": [
+          "DevTools"
+        ],
+        "signal": "🟡 Insight",
+        "source": "Analyst"
+      },
+      "likes": 136,
+      "retweets": 1
+    },
+    {
+      "is_reply": true,
+      "parent": {
+        "username": "mattpocockuk",
+        "name": "Matt Pocock",
+        "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
+        "text": "1. /grill-with-docs\n2. \"Oh, I need to prototype some UI\"\n3. /handoff to /prototype\n4. Create prototype, /handoff back to grilling session\n5. /to-prd, /to-issues\n6. npm run sandcastle\n7. /improve-codebase-architecture\n\nI love this shit",
+        "tweet_url": "https://x.com/mattpocockuk/status/2052042499053453330",
+        "media": [],
+        "likes": 3242,
+        "retweets": 141
+      },
+      "reply": {
+        "username": "mattpocockuk",
+        "name": "Matt Pocock",
+        "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
+        "text": "Yes, /handoff is new and very, very good.\n\nGet on the newsletter to learn about it first:\n\nhttps://t.co/kF2oh4ljgU",
+        "media": [],
+        "likes": 124,
+        "retweets": 3,
+        "replies": 4,
+        "quotes": 0,
+        "tweet_url": "https://x.com/mattpocockuk/status/2052043231106367685",
+        "id": "2052043231106367685",
+        "created_at": "2026-05-06T15:10:06.000Z",
+        "themes": [
+          "Agent UX"
+        ],
+        "signal": "🟢 Discussion",
+        "source": "Community"
+      },
+      "likes": 124,
+      "retweets": 3
     },
     {
       "is_reply": true,
@@ -94,152 +1467,38 @@
         "username": "RhysSullivan",
         "name": "Rhys",
         "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
-        "text": "this is my favorite tiktok account so i'm glad he's posting here now as well\n\npretty much always an unbiased look at the latest news w/ going to primary sources and the data so you can verify it yourself https://t.co/wrKwDTB5HL",
-        "tweet_url": "https://x.com/RhysSullivan/status/2056078826468495440",
-        "media": []
+        "text": "youtube has completely ruined their homepage with shortsslop https://t.co/mHpue4RoOV",
+        "tweet_url": "https://x.com/RhysSullivan/status/2050644371364835552",
+        "media": [
+          {
+            "url": "https://x.com/RhysSullivan/status/2050644371364835552/photo/1",
+            "type": "image"
+          }
+        ],
+        "likes": 280,
+        "retweets": 1
       },
       "reply": {
-        "username": "RhysSullivan",
-        "name": "Rhys",
-        "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
-        "text": "i'd be interested to see if an AI product would be able to do the same quality of source gathering and comparisons of facts, seems like it's up the alley of things they're good at\n\nanother good one https://t.co/Cswyy4NT1B",
+        "username": "mattpocockuk",
+        "name": "Matt Pocock",
+        "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
+        "text": "@RhysSullivan Disable your watch history, it rocks\n\nAlso, hey",
+        "media": [],
+        "likes": 119,
+        "retweets": 0,
+        "replies": 9,
+        "quotes": 0,
+        "tweet_url": "https://x.com/mattpocockuk/status/2050690954756018258",
+        "id": "2050690954756018258",
+        "created_at": "2026-05-02T21:36:38.000Z",
         "themes": [
-          "TypeScript",
-          "OSS",
           "AI Engineering"
         ],
-        "signal": "🟡 Insight",
-        "source": "Curator",
-        "likes": 9,
-        "retweets": 0,
-        "replies": 0,
-        "quotes": 0,
-        "tweet_url": "https://x.com/RhysSullivan/status/2056079443500937243",
-        "id": "2056079443500937243"
-      }
-    },
-    {
-      "username": "colinhacks",
-      "name": "colinhacks/zod",
-      "avatar": "https://pbs.twimg.com/profile_images/1580243602684395520/aqyWgB1y_normal.jpg",
-      "text": "imagine the phishing attacks https://t.co/85az4sox1r",
-      "themes": [
-        "Security"
-      ],
-      "signal": "🟢 Discussion",
-      "source": "Curator",
-      "likes": 121,
-      "retweets": 0,
-      "replies": 2,
-      "quotes": 0,
-      "tweet_url": "https://x.com/colinhacks/status/2056079202366177436",
-      "id": "2056079202366177436"
-    },
-    {
-      "username": "RhysSullivan",
-      "name": "Rhys",
-      "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
-      "text": "this is my favorite tiktok account so i'm glad he's posting here now as well\n\npretty much always an unbiased look at the latest news w/ going to primary sources and the data so you can verify it yourself https://t.co/wrKwDTB5HL",
-      "themes": [
-        "OSS"
-      ],
-      "signal": "🟡 Insight",
-      "source": "Curator",
-      "likes": 42,
-      "retweets": 0,
-      "replies": 2,
-      "quotes": 0,
-      "tweet_url": "https://x.com/RhysSullivan/status/2056078826468495440",
-      "id": "2056078826468495440"
-    },
-    {
-      "username": "Baconbrix",
-      "name": "Evan Bacon 🥓",
-      "avatar": "https://pbs.twimg.com/profile_images/1576625400205250561/wGfn72X__normal.jpg",
-      "text": "quickly became my most used app on meta ray band display https://t.co/yuAccJEIDM",
-      "themes": [
-        "AI Engineering"
-      ],
-      "signal": "🟡 Insight",
-      "source": "Curator",
-      "likes": 29,
-      "retweets": 0,
-      "replies": 3,
-      "quotes": 0,
-      "tweet_url": "https://x.com/Baconbrix/status/2056075093269495959",
-      "id": "2056075093269495959"
-    },
-    {
-      "username": "mattpocockuk",
-      "name": "Matt Pocock",
-      "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
-      "text": "Pump the classics into my veins https://t.co/tjX1gFoUzC",
-      "themes": [
-        "AI Engineering"
-      ],
-      "signal": "🟢 Discussion",
-      "source": "Curator",
-      "likes": 591,
-      "retweets": 16,
-      "replies": 34,
-      "quotes": 5,
-      "tweet_url": "https://x.com/mattpocockuk/status/2056042537547080076",
-      "id": "2056042537547080076"
-    },
-    {
-      "username": "RhysSullivan",
-      "name": "Rhys",
-      "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
-      "text": "do you still care about backwards compatibility / breaking changes in libraries now that agents are writing most of your code?",
-      "themes": [
-        "Agent UX",
-        "TypeScript"
-      ],
-      "signal": "🔴 Signal",
-      "source": "Builder",
-      "likes": 21,
-      "retweets": 0,
-      "replies": 35,
-      "quotes": 1,
-      "tweet_url": "https://x.com/RhysSullivan/status/2056035274602553631",
-      "id": "2056035274602553631"
-    },
-    {
-      "username": "kettanaito",
-      "name": "Artem Zakharchenko",
-      "avatar": "https://pbs.twimg.com/profile_images/1844034767756378112/p0qnRGI1_normal.jpg",
-      "text": "I will never forget how Apple tries to gaslight me into thinking I spelled \"forbidden\" wrong.",
-      "themes": [
-        "AI Engineering"
-      ],
-      "signal": "🟢 Discussion",
-      "source": "Community",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0,
-      "tweet_url": "https://x.com/kettanaito/status/2055994873078280513",
-      "id": "2055994873078280513"
-    },
-    {
-      "username": "mattpocockuk",
-      "name": "Matt Pocock",
-      "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
-      "text": "The power of /grill-with-docs:\n\n\"when a prospective steward is able adopt a spark which they've already pledged to, the orange accept button is too far down the page and gets clipped by the navigation gantry\"\n\nA shared language, curated with the agent, means you're able to https://t.co/52rsoBC0Nm",
-      "themes": [
-        "Agent UX",
-        "TypeScript",
-        "OSS",
-        "DevTools"
-      ],
-      "signal": "🟡 Insight",
-      "source": "Curator",
-      "likes": 163,
-      "retweets": 9,
-      "replies": 7,
-      "quotes": 1,
-      "tweet_url": "https://x.com/mattpocockuk/status/2055923352712221001",
-      "id": "2055923352712221001"
+        "signal": "🟢 Discussion",
+        "source": "Analyst"
+      },
+      "likes": 119,
+      "retweets": 0
     },
     {
       "is_reply": true,
@@ -249,59 +1508,31 @@
         "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
         "text": "Using /grill-me this morning to help me fix a toilet\n\nLet's see how this goes",
         "tweet_url": "https://x.com/mattpocockuk/status/2055917944308195396",
-        "media": []
+        "media": [],
+        "likes": 332,
+        "retweets": 1
       },
       "reply": {
         "username": "mattpocockuk",
         "name": "Matt Pocock",
         "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
         "text": "It convinced me to call a plumber, sweet",
-        "themes": [
-          "AI Engineering"
-        ],
-        "signal": "🟢 Discussion",
-        "source": "Analyst",
+        "media": [],
         "likes": 108,
         "retweets": 1,
         "replies": 7,
         "quotes": 0,
         "tweet_url": "https://x.com/mattpocockuk/status/2055919719618695580",
-        "id": "2055919719618695580"
-      }
-    },
-    {
-      "username": "mattpocockuk",
-      "name": "Matt Pocock",
-      "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
-      "text": "Using /grill-me this morning to help me fix a toilet\n\nLet's see how this goes",
-      "themes": [
-        "AI Engineering"
-      ],
-      "signal": "🟢 Discussion",
-      "source": "Community",
-      "likes": 332,
-      "retweets": 1,
-      "replies": 25,
-      "quotes": 0,
-      "tweet_url": "https://x.com/mattpocockuk/status/2055917944308195396",
-      "id": "2055917944308195396"
-    },
-    {
-      "username": "kentcdodds",
-      "name": "Kent C. Dodds 🏹",
-      "avatar": "https://pbs.twimg.com/profile_images/1567269493608714241/6ACZo99k_normal.jpg",
-      "text": "Changelogs are not meant for human consumption and that's a good thing https://t.co/pYjipwR9XF",
-      "themes": [
-        "AI Engineering"
-      ],
-      "signal": "🟡 Insight",
-      "source": "Curator",
-      "likes": 14,
-      "retweets": 1,
-      "replies": 2,
-      "quotes": 0,
-      "tweet_url": "https://x.com/kentcdodds/status/2055888370711277873",
-      "id": "2055888370711277873"
+        "id": "2055919719618695580",
+        "created_at": "2026-05-17T07:53:52.000Z",
+        "themes": [
+          "AI Engineering"
+        ],
+        "signal": "🟢 Discussion",
+        "source": "Analyst"
+      },
+      "likes": 108,
+      "retweets": 1
     },
     {
       "is_reply": true,
@@ -309,318 +1540,77 @@
         "username": "RhysSullivan",
         "name": "Rhys",
         "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
-        "text": "you don't realize all of the footguns / friction on building an app that runs a server on localhost until you build one\n\nif you don't have some sort of authentication on it then any website or local running apps can call into it\n\nmakes 'just go to this localhost url' way harder",
-        "tweet_url": "https://x.com/RhysSullivan/status/2055864361957359930",
-        "media": []
+        "text": "- gemini is really good at landing page design\n- apparently they are very strict about using it in third party harnesses https://t.co/8Ut8lVGBHt",
+        "tweet_url": "https://x.com/RhysSullivan/status/2051907486782001237",
+        "media": [
+          {
+            "url": "https://x.com/RhysSullivan/status/2051907486782001237/photo/1",
+            "type": "image"
+          }
+        ],
+        "likes": 195,
+        "retweets": 3
       },
       "reply": {
         "username": "RhysSullivan",
         "name": "Rhys",
         "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
-        "text": "i also don't think that users appreciate this problem, and giving them any sort of a 'put in a password' prompt is annoying but has to be done for it to be secure",
+        "text": "i feel like im in trouble with the principle bro https://t.co/aHkKTi4G1W",
+        "media": [
+          {
+            "url": "https://x.com/RhysSullivan/status/2051908081035141183/photo/1",
+            "type": "image"
+          }
+        ],
+        "likes": 96,
+        "retweets": 1,
+        "replies": 7,
+        "quotes": 2,
+        "tweet_url": "https://x.com/RhysSullivan/status/2051908081035141183",
+        "id": "2051908081035141183",
+        "created_at": "2026-05-06T06:13:03.000Z",
         "themes": [
-          "OSS",
           "AI Engineering"
         ],
         "signal": "🟡 Insight",
-        "source": "Analyst",
-        "likes": 14,
-        "retweets": 0,
-        "replies": 0,
-        "quotes": 0,
-        "tweet_url": "https://x.com/RhysSullivan/status/2055864920684851322",
-        "id": "2055864920684851322"
-      }
-    },
-    {
-      "username": "RhysSullivan",
-      "name": "Rhys",
-      "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
-      "text": "you don't realize all of the footguns / friction on building an app that runs a server on localhost until you build one\n\nif you don't have some sort of authentication on it then any website or local running apps can call into it\n\nmakes 'just go to this localhost url' way harder",
-      "themes": [
-        "Security",
-        "DevTools"
-      ],
-      "signal": "🟡 Insight",
-      "source": "Analyst",
-      "likes": 132,
-      "retweets": 2,
-      "replies": 10,
-      "quotes": 0,
-      "tweet_url": "https://x.com/RhysSullivan/status/2055864361957359930",
-      "id": "2055864361957359930"
-    },
-    {
-      "username": "RhysSullivan",
-      "name": "Rhys",
-      "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
-      "text": "push your AGI timelines back a week https://t.co/vbrtUJHxq6",
-      "themes": [
-        "AI Engineering"
-      ],
-      "signal": "🟢 Discussion",
-      "source": "Curator",
-      "likes": 64,
-      "retweets": 3,
-      "replies": 4,
-      "quotes": 0,
-      "tweet_url": "https://x.com/RhysSullivan/status/2055855064120693127",
-      "id": "2055855064120693127"
-    },
-    {
-      "username": "kentcdodds",
-      "name": "Kent C. Dodds 🏹",
-      "avatar": "https://pbs.twimg.com/profile_images/1567269493608714241/6ACZo99k_normal.jpg",
-      "text": "This is how Kody works https://t.co/LkRItmsRmw",
-      "themes": [
-        "AI Engineering"
-      ],
-      "signal": "🟢 Discussion",
-      "source": "Curator",
-      "likes": 4,
-      "retweets": 1,
-      "replies": 0,
-      "quotes": 0,
-      "tweet_url": "https://x.com/kentcdodds/status/2055830501202575807",
-      "id": "2055830501202575807"
-    },
-    {
-      "username": "kentcdodds",
-      "name": "Kent C. Dodds 🏹",
-      "avatar": "https://pbs.twimg.com/profile_images/1567269493608714241/6ACZo99k_normal.jpg",
-      "text": "This is my exact experience all year with @cursor_ai cloud agents https://t.co/Qepz0NY9qH",
-      "themes": [
-        "Agent UX",
-        "TypeScript",
-        "AI Engineering"
-      ],
-      "signal": "🟡 Insight",
-      "source": "Curator",
-      "likes": 22,
-      "retweets": 0,
-      "replies": 4,
-      "quotes": 0,
-      "tweet_url": "https://x.com/kentcdodds/status/2055830279881646508",
-      "id": "2055830279881646508"
-    },
-    {
-      "username": "RhysSullivan",
-      "name": "Rhys",
-      "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
-      "text": "junior engineers after submitting their first slop PR: https://t.co/H2gM1JUik6",
-      "themes": [
-        "OSS",
-        "AI Engineering"
-      ],
-      "signal": "🟢 Discussion",
-      "source": "Curator",
-      "likes": 5133,
-      "retweets": 207,
-      "replies": 19,
-      "quotes": 4,
-      "tweet_url": "https://x.com/RhysSullivan/status/2055781387685474760",
-      "id": "2055781387685474760"
+        "source": "Curator"
+      },
+      "likes": 96,
+      "retweets": 1
     },
     {
       "is_reply": true,
       "parent": {
-        "username": "kentcdodds",
-        "name": "Kent C. Dodds 🏹",
-        "avatar": "https://pbs.twimg.com/profile_images/1567269493608714241/6ACZo99k_normal.jpg",
-        "text": "@threepointone The main character I'm auditioning for is Scottish, so I looked up on YouTube how to speak in a Scottish accent and no joke this was the second result @mattpocockuk https://t.co/YY3u450HkH",
-        "tweet_url": "https://x.com/kentcdodds/status/2055736745266676157",
-        "media": []
+        "username": "mattpocockuk",
+        "name": "Matt Pocock",
+        "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
+        "text": "Way too many folks are concerned about total tokens\n\nWhen the right metric is value per token",
+        "tweet_url": "https://x.com/mattpocockuk/status/2053114415877165089",
+        "media": [],
+        "likes": 696,
+        "retweets": 39
       },
       "reply": {
         "username": "mattpocockuk",
         "name": "Matt Pocock",
         "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
-        "text": "@kentcdodds @threepointone Lolol let me know if you need more tips, Scottish is my son's favourite book-reading accent",
+        "text": "People comparing markdown and HTML in terms of token spend is insane\n\nIt's like comparing apples with cricket bats",
+        "media": [],
+        "likes": 87,
+        "retweets": 1,
+        "replies": 13,
+        "quotes": 0,
+        "tweet_url": "https://x.com/mattpocockuk/status/2053115069932683462",
+        "id": "2053115069932683462",
+        "created_at": "2026-05-09T14:09:12.000Z",
         "themes": [
           "AI Engineering"
         ],
         "signal": "🟡 Insight",
-        "source": "Analyst",
-        "likes": 1,
-        "retweets": 0,
-        "replies": 0,
-        "quotes": 0,
-        "tweet_url": "https://x.com/mattpocockuk/status/2055737795172249666",
-        "id": "2055737795172249666"
-      }
-    },
-    {
-      "is_reply": true,
-      "parent": {
-        "username": "kettanaito",
-        "name": "Artem Zakharchenko",
-        "avatar": "https://pbs.twimg.com/profile_images/1844034767756378112/p0qnRGI1_normal.jpg",
-        "text": "Every time a project that started as a paid/freemium goes open source I'm both happy and sad. Happy because it's a win for the users. Sad because if the big players cannot pull off the paid model, nobody can.",
-        "tweet_url": "https://x.com/kettanaito/status/2055703500433076377",
-        "media": []
+        "source": "Analyst"
       },
-      "reply": {
-        "username": "kettanaito",
-        "name": "Artem Zakharchenko",
-        "avatar": "https://pbs.twimg.com/profile_images/1844034767756378112/p0qnRGI1_normal.jpg",
-        "text": "I am specifically referring to projects from established OSS creators that were positioned as paid but, eventually, transformed into a full MIT license.",
-        "themes": [
-          "TypeScript",
-          "OSS",
-          "AI Engineering"
-        ],
-        "signal": "🟡 Insight",
-        "source": "Analyst",
-        "likes": 1,
-        "retweets": 0,
-        "replies": 0,
-        "quotes": 0,
-        "tweet_url": "https://x.com/kettanaito/status/2055703765995418049",
-        "id": "2055703765995418049"
-      }
-    },
-    {
-      "username": "kettanaito",
-      "name": "Artem Zakharchenko",
-      "avatar": "https://pbs.twimg.com/profile_images/1844034767756378112/p0qnRGI1_normal.jpg",
-      "text": "Every time a project that started as a paid/freemium goes open source I'm both happy and sad. Happy because it's a win for the users. Sad because if the big players cannot pull off the paid model, nobody can.",
-      "themes": [
-        "OSS",
-        "AI Engineering"
-      ],
-      "signal": "🟡 Insight",
-      "source": "Analyst",
-      "likes": 10,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0,
-      "tweet_url": "https://x.com/kettanaito/status/2055703500433076377",
-      "id": "2055703500433076377"
-    },
-    {
-      "is_reply": true,
-      "parent": {
-        "username": "kettanaito",
-        "name": "Artem Zakharchenko",
-        "avatar": "https://pbs.twimg.com/profile_images/1844034767756378112/p0qnRGI1_normal.jpg",
-        "text": "@zkochan I came around minimumReleaseAge. I think it's a great feature in pnpm. Thank you for adding it!",
-        "tweet_url": "https://x.com/kettanaito/status/2055700869241245738",
-        "media": []
-      },
-      "reply": {
-        "username": "kettanaito",
-        "name": "Artem Zakharchenko",
-        "avatar": "https://pbs.twimg.com/profile_images/1844034767756378112/p0qnRGI1_normal.jpg",
-        "text": "I can see how it can be confusing in normal circumstances, but with the supply chain attacks happening every week, we need every line of defense we can get.",
-        "themes": [
-          "Security",
-          "AI Engineering"
-        ],
-        "signal": "🟡 Insight",
-        "source": "Analyst",
-        "likes": 4,
-        "retweets": 0,
-        "replies": 0,
-        "quotes": 0,
-        "tweet_url": "https://x.com/kettanaito/status/2055702901985559015",
-        "id": "2055702901985559015"
-      }
-    },
-    {
-      "username": "mattpocockuk",
-      "name": "Matt Pocock",
-      "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
-      "text": "Think I might need to revisit Effect on my YouTube channel\n\nThere is literally no better AX for building backend stuff in TypeScript.\n\nOnce you see it through that lens it's addictive",
-      "themes": [
-        "TypeScript",
-        "DevTools"
-      ],
-      "signal": "🟡 Insight",
-      "source": "Analyst",
-      "likes": 906,
-      "retweets": 34,
-      "replies": 61,
-      "quotes": 5,
-      "tweet_url": "https://x.com/mattpocockuk/status/2055674264695496901",
-      "id": "2055674264695496901"
-    },
-    {
-      "is_reply": true,
-      "parent": {
-        "username": "RhysSullivan",
-        "name": "Rhys",
-        "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
-        "text": "people don't realize error handling is the least interesting thing about effect https://t.co/IqZvItBlAE",
-        "tweet_url": "https://x.com/RhysSullivan/status/2055386002680869003",
-        "media": []
-      },
-      "reply": {
-        "username": "mattpocockuk",
-        "name": "Matt Pocock",
-        "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
-        "text": "@RhysSullivan Took me a long time to realise that DI was its core offering",
-        "themes": [
-          "TypeScript"
-        ],
-        "signal": "🟡 Insight",
-        "source": "Analyst",
-        "likes": 58,
-        "retweets": 0,
-        "replies": 5,
-        "quotes": 0,
-        "tweet_url": "https://x.com/mattpocockuk/status/2055664728853131750",
-        "id": "2055664728853131750"
-      }
-    },
-    {
-      "username": "RhysSullivan",
-      "name": "Rhys",
-      "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
-      "text": "i will make the boston tea party look like a joke with what i am going to do to claude if the US government puts a tax on my tokens https://t.co/pLr3miVqF6 https://t.co/xmkWdIIBiA",
-      "themes": [
-        "Claude Code",
-        "TypeScript",
-        "AI Engineering"
-      ],
-      "signal": "🟡 Insight",
-      "source": "Curator",
-      "likes": 272,
-      "retweets": 14,
-      "replies": 7,
-      "quotes": 4,
-      "tweet_url": "https://x.com/RhysSullivan/status/2055573205851804153",
-      "id": "2055573205851804153"
-    },
-    {
-      "is_reply": true,
-      "parent": {
-        "username": "RhysSullivan",
-        "name": "Rhys",
-        "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
-        "text": "it's insane the number of replies saying you can just make an app of this quality, the models are good but they are not able to vibe code something like this yet",
-        "tweet_url": "https://x.com/RhysSullivan/status/2055534162095050990",
-        "media": []
-      },
-      "reply": {
-        "username": "RhysSullivan",
-        "name": "Rhys",
-        "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
-        "text": "also the number of replies telling me to have codex hack itself makes me realize how limited i am on thinking about what these models can do, so much to catch up on",
-        "themes": [
-          "Codex",
-          "TypeScript",
-          "Security",
-          "AI Engineering"
-        ],
-        "signal": "🟡 Insight",
-        "source": "Analyst",
-        "likes": 69,
-        "retweets": 0,
-        "replies": 0,
-        "quotes": 1,
-        "tweet_url": "https://x.com/RhysSullivan/status/2055536202300915910",
-        "id": "2055536202300915910"
-      }
+      "likes": 87,
+      "retweets": 1
     },
     {
       "is_reply": true,
@@ -630,46 +1620,31 @@
         "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
         "text": "i really wish the codex app was open source, so many small tweaks i want to make to it to better suit my workflow\n\ngenuinely really well made piece of software it feels so smooth, i was unfamiliar with openai's game",
         "tweet_url": "https://x.com/RhysSullivan/status/2055524681994883187",
-        "media": []
+        "media": [],
+        "likes": 791,
+        "retweets": 11
       },
       "reply": {
         "username": "RhysSullivan",
         "name": "Rhys",
         "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
         "text": "it's insane the number of replies saying you can just make an app of this quality, the models are good but they are not able to vibe code something like this yet",
-        "themes": [
-          "AI Engineering"
-        ],
-        "signal": "🟡 Insight",
-        "source": "Analyst",
+        "media": [],
         "likes": 88,
         "retweets": 0,
         "replies": 8,
         "quotes": 0,
         "tweet_url": "https://x.com/RhysSullivan/status/2055534162095050990",
-        "id": "2055534162095050990"
-      }
-    },
-    {
-      "username": "RhysSullivan",
-      "name": "Rhys",
-      "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
-      "text": "i really wish the codex app was open source, so many small tweaks i want to make to it to better suit my workflow\n\ngenuinely really well made piece of software it feels so smooth, i was unfamiliar with openai's game",
-      "themes": [
-        "Agent UX",
-        "Codex",
-        "OSS",
-        "DevTools",
-        "AI Engineering"
-      ],
-      "signal": "🟡 Insight",
-      "source": "Analyst",
-      "likes": 791,
-      "retweets": 11,
-      "replies": 60,
-      "quotes": 6,
-      "tweet_url": "https://x.com/RhysSullivan/status/2055524681994883187",
-      "id": "2055524681994883187"
+        "id": "2055534162095050990",
+        "created_at": "2026-05-16T06:21:48.000Z",
+        "themes": [
+          "AI Engineering"
+        ],
+        "signal": "🟡 Insight",
+        "source": "Analyst"
+      },
+      "likes": 88,
+      "retweets": 0
     },
     {
       "is_reply": true,
@@ -677,1413 +1652,108 @@
         "username": "mattpocockuk",
         "name": "Matt Pocock",
         "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
-        "text": "Sounds familiar\n\nLove that both great and mediocre minds can think alike\n\n(Martin being the great, ofc) https://t.co/GPjkvDr1AE",
-        "tweet_url": "https://x.com/mattpocockuk/status/2055257466573648135",
-        "media": []
+        "text": "A flow I just tried and LOVED:\n\n1. /grill-with-docs, talking about a new bit of UI\n2. Asks me a question I can't answer unless I prototype\n3. /prototype\n4. Iterate on the prototype, burning tokens freely until we get a good spot\n5. /rewind to the question, and select 'summarize'",
+        "tweet_url": "https://x.com/mattpocockuk/status/2053459748532392343",
+        "media": [],
+        "likes": 2326,
+        "retweets": 89
       },
       "reply": {
-        "username": "kentcdodds",
-        "name": "Kent C. Dodds 🏹",
-        "avatar": "https://pbs.twimg.com/profile_images/1567269493608714241/6ACZo99k_normal.jpg",
-        "text": "@mattpocockuk Another mediocre mind came upon this strategy as well! https://t.co/2tMuLQOHp9\n\nIt's a good approach.",
-        "themes": [
-          "OSS"
-        ],
-        "signal": "🟡 Insight",
-        "source": "Curator",
-        "likes": 6,
-        "retweets": 0,
+        "username": "mattpocockuk",
+        "name": "Matt Pocock",
+        "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
+        "text": "Keep up to date with my skills here:\n\nhttps://t.co/kF2oh4ljgU",
+        "media": [],
+        "likes": 76,
+        "retweets": 3,
         "replies": 0,
         "quotes": 0,
-        "tweet_url": "https://x.com/kentcdodds/status/2055512119060451577",
-        "id": "2055512119060451577"
-      }
-    },
-    {
-      "is_reply": true,
-      "parent": {
-        "username": "RhysSullivan",
-        "name": "Rhys",
-        "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
-        "text": "this flow feels weird https://t.co/NiANygcsep",
-        "tweet_url": "https://x.com/RhysSullivan/status/2055510047002870108",
-        "media": [
-          {
-            "url": "https://x.com/RhysSullivan/status/2055510047002870108/photo/1",
-            "type": "image"
-          }
-        ]
-      },
-      "reply": {
-        "username": "RhysSullivan",
-        "name": "Rhys",
-        "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
-        "text": "also no stacked PR support :( \n\nnone of the tools really match a UX as good as my workflow of just telling agents to stack PRs in worktrees",
-        "themes": [
-          "Agent UX",
-          "TypeScript",
-          "OSS",
-          "DevTools"
-        ],
-        "signal": "🟡 Insight",
-        "source": "Analyst",
-        "likes": 6,
-        "retweets": 0,
-        "replies": 2,
-        "quotes": 0,
-        "tweet_url": "https://x.com/RhysSullivan/status/2055510235373277227",
-        "id": "2055510235373277227"
-      }
-    },
-    {
-      "is_reply": true,
-      "parent": {
-        "username": "RhysSullivan",
-        "name": "Rhys",
-        "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
-        "text": "their remote connections feels very good, although it's missing auto port forwarding? but codex wrote a small app to do that automatically so unblocked there",
-        "tweet_url": "https://x.com/RhysSullivan/status/2055509804140175851",
-        "media": []
-      },
-      "reply": {
-        "username": "RhysSullivan",
-        "name": "Rhys",
-        "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
-        "text": "this flow feels weird https://t.co/NiANygcsep",
+        "tweet_url": "https://x.com/mattpocockuk/status/2053460591591731369",
+        "id": "2053460591591731369",
+        "created_at": "2026-05-10T13:02:11.000Z",
         "themes": [
           "AI Engineering"
         ],
         "signal": "🟢 Discussion",
-        "source": "Curator",
-        "likes": 4,
-        "retweets": 0,
+        "source": "Curator"
+      },
+      "likes": 76,
+      "retweets": 3
+    },
+    {
+      "is_reply": true,
+      "parent": {
+        "username": "Baconbrix",
+        "name": "Evan Bacon 🥓",
+        "avatar": "https://pbs.twimg.com/profile_images/1576625400205250561/wGfn72X__normal.jpg",
+        "text": "Just open-sourced a new template for building AI chatbot apps like Claude with Expo Router!\n\n⬦ Runs on iOS, Android, and web\n⬦ Stream any model with AI SDK\n⬦ Tailwind styles for theming\n⬦ Smooth keyboard handling\n⬦ Liquid Glass and iOS 18\n\nLink below ↓ https://t.co/pDEWOahxnX",
+        "tweet_url": "https://x.com/Baconbrix/status/2054587962516820214",
+        "media": [
+          {
+            "url": "https://x.com/Baconbrix/status/2054587962516820214/video/1",
+            "type": "image"
+          }
+        ],
+        "likes": 755,
+        "retweets": 47
+      },
+      "reply": {
+        "username": "Baconbrix",
+        "name": "Evan Bacon 🥓",
+        "avatar": "https://pbs.twimg.com/profile_images/1576625400205250561/wGfn72X__normal.jpg",
+        "text": "Get started in one line:\n\n~ / bunx create-expo -t https://t.co/n2892cRVg8",
+        "media": [],
+        "likes": 68,
+        "retweets": 3,
         "replies": 3,
         "quotes": 0,
-        "tweet_url": "https://x.com/RhysSullivan/status/2055510047002870108",
-        "id": "2055510047002870108"
-      }
-    },
-    {
-      "is_reply": true,
-      "parent": {
-        "username": "RhysSullivan",
-        "name": "Rhys",
-        "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
-        "text": "alright i'm coming back to the codex app after not using it for 3ish months and it's gotten good\n\nworth giving a try if you haven't recently",
-        "tweet_url": "https://x.com/RhysSullivan/status/2055509637827527113",
-        "media": []
-      },
-      "reply": {
-        "username": "RhysSullivan",
-        "name": "Rhys",
-        "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
-        "text": "their remote connections feels very good, although it's missing auto port forwarding? but codex wrote a small app to do that automatically so unblocked there",
+        "tweet_url": "https://x.com/Baconbrix/status/2054587964211257585",
+        "id": "2054587964211257585",
+        "created_at": "2026-05-13T15:41:57.000Z",
         "themes": [
-          "Codex"
+          "TypeScript"
         ],
         "signal": "🟡 Insight",
-        "source": "Analyst",
-        "likes": 8,
-        "retweets": 0,
-        "replies": 1,
-        "quotes": 0,
-        "tweet_url": "https://x.com/RhysSullivan/status/2055509804140175851",
-        "id": "2055509804140175851"
-      }
-    },
-    {
-      "username": "RhysSullivan",
-      "name": "Rhys",
-      "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
-      "text": "alright i'm coming back to the codex app after not using it for 3ish months and it's gotten good\n\nworth giving a try if you haven't recently",
-      "themes": [
-        "Codex"
-      ],
-      "signal": "🟡 Insight",
-      "source": "Analyst",
-      "likes": 83,
-      "retweets": 1,
-      "replies": 8,
-      "quotes": 0,
-      "tweet_url": "https://x.com/RhysSullivan/status/2055509637827527113",
-      "id": "2055509637827527113"
-    },
-    {
-      "username": "RhysSullivan",
-      "name": "Rhys",
-      "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
-      "text": "Remember using websites on the first iPhones? For the first few years so many of them were like this, the entire desktop page crammed into a tiny screen\n\nFeels the exact same way with agents using existing products today, especially with computer use https://t.co/GwWpYnFbfs https://t.co/e5BRsqDEmj",
-      "themes": [
-        "Agent UX",
-        "TypeScript",
-        "OSS"
-      ],
-      "signal": "🟡 Insight",
-      "source": "Curator",
-      "likes": 125,
-      "retweets": 4,
-      "replies": 10,
-      "quotes": 0,
-      "tweet_url": "https://x.com/RhysSullivan/status/2055486356345024833",
-      "id": "2055486356345024833"
-    },
-    {
-      "username": "RhysSullivan",
-      "name": "Rhys",
-      "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
-      "text": "Building a product today only testing it via the browser &amp; not via an agent is like developing only for desktop and not checking on a phone during the mobile revolution\n\nI’m guilty of this also, it’s a really easy trap to fall into but agents are how people use products now",
-      "themes": [
-        "Agent UX",
-        "TypeScript",
-        "OSS",
-        "DevTools"
-      ],
-      "signal": "🟡 Insight",
-      "source": "Analyst",
-      "likes": 118,
-      "retweets": 8,
-      "replies": 7,
-      "quotes": 2,
-      "tweet_url": "https://x.com/RhysSullivan/status/2055469987926831233",
-      "id": "2055469987926831233"
+        "source": "Curator"
+      },
+      "likes": 68,
+      "retweets": 3
     },
     {
       "is_reply": true,
       "parent": {
-        "username": "Baconbrix",
-        "name": "Evan Bacon 🥓",
-        "avatar": "https://pbs.twimg.com/profile_images/1576625400205250561/wGfn72X__normal.jpg",
-        "text": "I built subway surfers for Meta Display so I can pay attention outside https://t.co/SuF4eUaHPc",
-        "tweet_url": "https://x.com/Baconbrix/status/2055434087004029332",
-        "media": [
-          {
-            "url": "https://x.com/Baconbrix/status/2055434087004029332/video/1",
-            "type": "image"
-          }
-        ]
+        "username": "RhysSullivan",
+        "name": "Rhys",
+        "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
+        "text": "it's insane the number of replies saying you can just make an app of this quality, the models are good but they are not able to vibe code something like this yet",
+        "tweet_url": "https://x.com/RhysSullivan/status/2055534162095050990",
+        "media": [],
+        "likes": 88,
+        "retweets": 0
       },
       "reply": {
-        "username": "Baconbrix",
-        "name": "Evan Bacon 🥓",
-        "avatar": "https://pbs.twimg.com/profile_images/1576625400205250561/wGfn72X__normal.jpg",
-        "text": "Thanks @OscarFalmer for the recording tips",
+        "username": "RhysSullivan",
+        "name": "Rhys",
+        "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
+        "text": "also the number of replies telling me to have codex hack itself makes me realize how limited i am on thinking about what these models can do, so much to catch up on",
+        "media": [],
+        "likes": 69,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 1,
+        "tweet_url": "https://x.com/RhysSullivan/status/2055536202300915910",
+        "id": "2055536202300915910",
+        "created_at": "2026-05-16T06:29:55.000Z",
         "themes": [
+          "Codex",
+          "Security",
           "AI Engineering"
         ],
-        "signal": "🟢 Discussion",
-        "source": "Analyst",
-        "likes": 1,
-        "retweets": 0,
-        "replies": 1,
-        "quotes": 0,
-        "tweet_url": "https://x.com/Baconbrix/status/2055435092772941998",
-        "id": "2055435092772941998"
-      }
-    },
-    {
-      "username": "Baconbrix",
-      "name": "Evan Bacon 🥓",
-      "avatar": "https://pbs.twimg.com/profile_images/1576625400205250561/wGfn72X__normal.jpg",
-      "text": "I built subway surfers for Meta Display so I can pay attention outside https://t.co/SuF4eUaHPc",
-      "themes": [
-        "TypeScript",
-        "DevTools"
-      ],
-      "signal": "🟡 Insight",
-      "source": "Curator",
-      "likes": 237,
-      "retweets": 9,
-      "replies": 17,
-      "quotes": 2,
-      "tweet_url": "https://x.com/Baconbrix/status/2055434087004029332",
-      "id": "2055434087004029332"
-    },
-    {
-      "username": "kentcdodds",
-      "name": "Kent C. Dodds 🏹",
-      "avatar": "https://pbs.twimg.com/profile_images/1567269493608714241/6ACZo99k_normal.jpg",
-      "text": "I've got a script that finds a good thumbnail for the Epic Product Engineer Podcast and I just love the one it chose for my episode with @thdxr https://t.co/StudRMW6h4 https://t.co/usW4xzHpRs",
-      "themes": [
-        "OSS",
-        "AI Engineering"
-      ],
-      "signal": "🟡 Insight",
-      "source": "Curator",
-      "likes": 71,
-      "retweets": 1,
-      "replies": 4,
-      "quotes": 0,
-      "tweet_url": "https://x.com/kentcdodds/status/2055433130409128155",
-      "id": "2055433130409128155"
-    },
-    {
-      "username": "RhysSullivan",
-      "name": "Rhys",
-      "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
-      "text": "there's never been a better time to be mid\n\nyou can't be so oneshotted that you're ripping psychosis slop on main\n\nbut you can't be so anti ai that you're not learning what these tools can do\n\nshoutout to the mids",
-      "themes": [
-        "AI Engineering"
-      ],
-      "signal": "🟡 Insight",
-      "source": "Analyst",
-      "likes": 409,
-      "retweets": 16,
-      "replies": 41,
-      "quotes": 6,
-      "tweet_url": "https://x.com/RhysSullivan/status/2055419648699723886",
-      "id": "2055419648699723886"
-    },
-    {
-      "username": "kettanaito",
-      "name": "Artem Zakharchenko",
-      "avatar": "https://pbs.twimg.com/profile_images/1844034767756378112/p0qnRGI1_normal.jpg",
-      "text": "This time on Zed suggestions: aside from once again messed up weight, the first suggested action is *destructive*. The second one is the one I want. The fact that the third is even on this list is insane.\n\nWhy are you like this, Zed? 😔 https://t.co/v3i1VCigZW",
-      "themes": [
-        "DevTools",
-        "AI Engineering"
-      ],
-      "signal": "🟡 Insight",
-      "source": "Curator",
-      "likes": 16,
-      "retweets": 0,
-      "replies": 3,
-      "quotes": 0,
-      "tweet_url": "https://x.com/kettanaito/status/2055396175310950461",
-      "id": "2055396175310950461"
-    },
-    {
-      "username": "Ryan_Magoon",
-      "name": "Ryan Magoon",
-      "avatar": "https://pbs.twimg.com/profile_images/1612291344004702209/i3Gr_xTp_normal.jpg",
-      "text": "The number of big companies talking a big talk about AI but their CI still takes 2 hours. Lighting money on fire",
-      "themes": [
-        "AI Engineering"
-      ],
-      "signal": "🟡 Insight",
-      "source": "Analyst",
-      "likes": 2,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0,
-      "tweet_url": "https://x.com/Ryan_Magoon/status/2055386769554641247",
-      "id": "2055386769554641247"
-    },
-    {
-      "username": "RhysSullivan",
-      "name": "Rhys",
-      "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
-      "text": "people don't realize error handling is the least interesting thing about effect https://t.co/IqZvItBlAE",
-      "themes": [
-        "AI Engineering"
-      ],
-      "signal": "🟡 Insight",
-      "source": "Curator",
-      "likes": 286,
-      "retweets": 11,
-      "replies": 15,
-      "quotes": 1,
-      "tweet_url": "https://x.com/RhysSullivan/status/2055386002680869003",
-      "id": "2055386002680869003"
-    },
-    {
-      "username": "kettanaito",
-      "name": "Artem Zakharchenko",
-      "avatar": "https://pbs.twimg.com/profile_images/1844034767756378112/p0qnRGI1_normal.jpg",
-      "text": "I tried this really good tea recently and it's nice.",
-      "themes": [
-        "AI Engineering"
-      ],
-      "signal": "🟡 Insight",
-      "source": "Analyst",
-      "likes": 1,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0,
-      "tweet_url": "https://x.com/kettanaito/status/2055381346311422077",
-      "id": "2055381346311422077"
-    },
-    {
-      "username": "RhysSullivan",
-      "name": "Rhys",
-      "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
-      "text": "Excited to demo at MCP Night: Agent Mode!\n\nCome through it’s gonna be fun https://t.co/ryQwXVyyTC",
-      "themes": [
-        "Agent UX"
-      ],
-      "signal": "🟡 Insight",
-      "source": "Curator",
+        "signal": "🟡 Insight",
+        "source": "Analyst"
+      },
       "likes": 69,
-      "retweets": 0,
-      "replies": 6,
-      "quotes": 0,
-      "tweet_url": "https://x.com/RhysSullivan/status/2055378668613214216",
-      "id": "2055378668613214216"
-    },
-    {
-      "is_reply": true,
-      "parent": {
-        "username": "kentcdodds",
-        "name": "Kent C. Dodds 🏹",
-        "avatar": "https://pbs.twimg.com/profile_images/1567269493608714241/6ACZo99k_normal.jpg",
-        "text": "I focus on the things that I think you need to know most and that's why I'm going to teach you how to know what to build and how to make decisions",
-        "tweet_url": "https://x.com/kentcdodds/status/2055359916886614241",
-        "media": []
-      },
-      "reply": {
-        "username": "kentcdodds",
-        "name": "Kent C. Dodds 🏹",
-        "avatar": "https://pbs.twimg.com/profile_images/1567269493608714241/6ACZo99k_normal.jpg",
-        "text": "As the AI landscape and our workflows for implementing solutions to problems continue to rapidly change, the one constant will remain: building the right solution",
-        "themes": [
-          "Agent UX",
-          "OSS",
-          "DevTools",
-          "AI Engineering"
-        ],
-        "signal": "🟢 Discussion",
-        "source": "Community",
-        "likes": 5,
-        "retweets": 1,
-        "replies": 0,
-        "quotes": 0,
-        "tweet_url": "https://x.com/kentcdodds/status/2055360242247151762",
-        "id": "2055360242247151762"
-      }
-    },
-    {
-      "is_reply": true,
-      "parent": {
-        "username": "kentcdodds",
-        "name": "Kent C. Dodds 🏹",
-        "avatar": "https://pbs.twimg.com/profile_images/1567269493608714241/6ACZo99k_normal.jpg",
-        "text": "For over a decade I've been in the business of helping software engineers accelerate their acquisition of experience. As technology changes, especially with AI, that's always been my North Star. What changes is the specific experience that I am helping them acquire.",
-        "tweet_url": "https://x.com/kentcdodds/status/2055359687173013792",
-        "media": []
-      },
-      "reply": {
-        "username": "kentcdodds",
-        "name": "Kent C. Dodds 🏹",
-        "avatar": "https://pbs.twimg.com/profile_images/1567269493608714241/6ACZo99k_normal.jpg",
-        "text": "I focus on the things that I think you need to know most and that's why I'm going to teach you how to know what to build and how to make decisions",
-        "themes": [
-          "DevTools"
-        ],
-        "signal": "🟡 Insight",
-        "source": "Analyst",
-        "likes": 2,
-        "retweets": 0,
-        "replies": 1,
-        "quotes": 1,
-        "tweet_url": "https://x.com/kentcdodds/status/2055359916886614241",
-        "id": "2055359916886614241"
-      }
-    },
-    {
-      "username": "kentcdodds",
-      "name": "Kent C. Dodds 🏹",
-      "avatar": "https://pbs.twimg.com/profile_images/1567269493608714241/6ACZo99k_normal.jpg",
-      "text": "For over a decade I've been in the business of helping software engineers accelerate their acquisition of experience. As technology changes, especially with AI, that's always been my North Star. What changes is the specific experience that I am helping them acquire.",
-      "themes": [
-        "AI Engineering"
-      ],
-      "signal": "🟡 Insight",
-      "source": "Analyst",
-      "likes": 17,
-      "retweets": 0,
-      "replies": 10,
-      "quotes": 0,
-      "tweet_url": "https://x.com/kentcdodds/status/2055359687173013792",
-      "id": "2055359687173013792"
-    },
-    {
-      "username": "kentcdodds",
-      "name": "Kent C. Dodds 🏹",
-      "avatar": "https://pbs.twimg.com/profile_images/1567269493608714241/6ACZo99k_normal.jpg",
-      "text": "This year I'm getting that YouTube plaque",
-      "themes": [
-        "AI Engineering"
-      ],
-      "signal": "🟢 Discussion",
-      "source": "Analyst",
-      "likes": 33,
-      "retweets": 0,
-      "replies": 3,
-      "quotes": 0,
-      "tweet_url": "https://x.com/kentcdodds/status/2055354239111897577",
-      "id": "2055354239111897577"
-    },
-    {
-      "username": "kettanaito",
-      "name": "Artem Zakharchenko",
-      "avatar": "https://pbs.twimg.com/profile_images/1844034767756378112/p0qnRGI1_normal.jpg",
-      "text": "The best job is that done with care, but if you're in a medical field, this is a must in my books. I've seen way too many doctors whose biggest contribution to society would be quitting.",
-      "themes": [
-        "AI Engineering"
-      ],
-      "signal": "🟡 Insight",
-      "source": "Analyst",
-      "likes": 2,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0,
-      "tweet_url": "https://x.com/kettanaito/status/2055343332378005963",
-      "id": "2055343332378005963"
-    },
-    {
-      "username": "kettanaito",
-      "name": "Artem Zakharchenko",
-      "avatar": "https://pbs.twimg.com/profile_images/1844034767756378112/p0qnRGI1_normal.jpg",
-      "text": "I know Anthropic often drops the ball with open source, but out of all the OSS programs I've submitted to, they were the first to approve within days. I'm still waiting for Codex, been months, no reply whatsoever.",
-      "themes": [
-        "Codex",
-        "Claude Code",
-        "TypeScript",
-        "OSS",
-        "AI Engineering"
-      ],
-      "signal": "🟡 Insight",
-      "source": "Analyst",
-      "likes": 10,
-      "retweets": 0,
-      "replies": 1,
-      "quotes": 0,
-      "tweet_url": "https://x.com/kettanaito/status/2055330640212439543",
-      "id": "2055330640212439543"
-    },
-    {
-      "is_reply": true,
-      "parent": {
-        "username": "mattpocockuk",
-        "name": "Matt Pocock",
-        "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
-        "text": "@kettanaito I'll put something together!",
-        "tweet_url": "https://x.com/mattpocockuk/status/2055327182839296192",
-        "media": []
-      },
-      "reply": {
-        "username": "kettanaito",
-        "name": "Artem Zakharchenko",
-        "avatar": "https://pbs.twimg.com/profile_images/1844034767756378112/p0qnRGI1_normal.jpg",
-        "text": "@mattpocockuk Please! This would be so useful. Here are some points from an outsider's perspective that might help in writing that:\n\n- Do skills have any established format? Is there a convention or is it just freeform Markdown?\n- What makes skills efficient? (I'd guess concision, but I want",
-        "themes": [
-          "TypeScript",
-          "DevTools"
-        ],
-        "signal": "🟢 Discussion",
-        "source": "Community",
-        "likes": 8,
-        "retweets": 0,
-        "replies": 1,
-        "quotes": 0,
-        "tweet_url": "https://x.com/kettanaito/status/2055328612643991814",
-        "id": "2055328612643991814"
-      }
-    },
-    {
-      "is_reply": true,
-      "parent": {
-        "username": "kettanaito",
-        "name": "Artem Zakharchenko",
-        "avatar": "https://pbs.twimg.com/profile_images/1844034767756378112/p0qnRGI1_normal.jpg",
-        "text": "@mattpocockuk Do you, by any chance, have guidelines on writing efficient skills? That would come in handy for what I'm working on!",
-        "tweet_url": "https://x.com/kettanaito/status/2055319380502708632",
-        "media": []
-      },
-      "reply": {
-        "username": "mattpocockuk",
-        "name": "Matt Pocock",
-        "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
-        "text": "@kettanaito I'll put something together!",
-        "themes": [
-          "AI Engineering"
-        ],
-        "signal": "🟢 Discussion",
-        "source": "Analyst",
-        "likes": 40,
-        "retweets": 1,
-        "replies": 2,
-        "quotes": 0,
-        "tweet_url": "https://x.com/mattpocockuk/status/2055327182839296192",
-        "id": "2055327182839296192"
-      }
-    },
-    {
-      "username": "kettanaito",
-      "name": "Artem Zakharchenko",
-      "avatar": "https://pbs.twimg.com/profile_images/1844034767756378112/p0qnRGI1_normal.jpg",
-      "text": "If you are a security company, there's no better time than now to reap publicity points by sending open source maintainers free Yubikeys.\n\nGitHub should be doing this, honestly, once your repo reaches a certain scale.",
-      "themes": [
-        "TypeScript",
-        "OSS",
-        "Security",
-        "DevTools",
-        "AI Engineering"
-      ],
-      "signal": "🟡 Insight",
-      "source": "Analyst",
-      "likes": 14,
-      "retweets": 1,
-      "replies": 2,
-      "quotes": 0,
-      "tweet_url": "https://x.com/kettanaito/status/2055323579261255775",
-      "id": "2055323579261255775"
-    },
-    {
-      "is_reply": true,
-      "parent": {
-        "username": "mattpocockuk",
-        "name": "Matt Pocock",
-        "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
-        "text": "Long skills are such a red flag to me\n\n- Hard to audit (and therefore, trust)\n- Hard to edit (more text, harder to maintain)\n- Expensive to run (more text, more tokens)\n\nThe shorter the skill, the better IMO",
-        "tweet_url": "https://x.com/mattpocockuk/status/2055298876093952489",
-        "media": []
-      },
-      "reply": {
-        "username": "kettanaito",
-        "name": "Artem Zakharchenko",
-        "avatar": "https://pbs.twimg.com/profile_images/1844034767756378112/p0qnRGI1_normal.jpg",
-        "text": "@mattpocockuk Do you, by any chance, have guidelines on writing efficient skills? That would come in handy for what I'm working on!",
-        "themes": [
-          "DevTools"
-        ],
-        "signal": "🟡 Insight",
-        "source": "Analyst",
-        "likes": 17,
-        "retweets": 0,
-        "replies": 2,
-        "quotes": 0,
-        "tweet_url": "https://x.com/kettanaito/status/2055319380502708632",
-        "id": "2055319380502708632"
-      }
-    },
-    {
-      "is_reply": true,
-      "parent": {
-        "username": "kentcdodds",
-        "name": "Kent C. Dodds 🏹",
-        "avatar": "https://pbs.twimg.com/profile_images/1567269493608714241/6ACZo99k_normal.jpg",
-        "text": "One cool thing about how 🐨 Kody is just an MCP server is that I can use my Cloud subscription with my AI assistant without worrying about Anthropic pulling the rug and charging me extra beyond my subscription for something like open OpenClaw.",
-        "tweet_url": "https://x.com/kentcdodds/status/2055309860049387750",
-        "media": []
-      },
-      "reply": {
-        "username": "kentcdodds",
-        "name": "Kent C. Dodds 🏹",
-        "avatar": "https://pbs.twimg.com/profile_images/1567269493608714241/6ACZo99k_normal.jpg",
-        "text": "This works because I'm able to use Cloud Desktop to interact with all the things that Kody can do and it works extremely well",
-        "themes": [
-          "AI Engineering"
-        ],
-        "signal": "🟡 Insight",
-        "source": "Analyst",
-        "likes": 0,
-        "retweets": 0,
-        "replies": 0,
-        "quotes": 0,
-        "tweet_url": "https://x.com/kentcdodds/status/2055309947211280723",
-        "id": "2055309947211280723"
-      }
-    },
-    {
-      "username": "kentcdodds",
-      "name": "Kent C. Dodds 🏹",
-      "avatar": "https://pbs.twimg.com/profile_images/1567269493608714241/6ACZo99k_normal.jpg",
-      "text": "One cool thing about how 🐨 Kody is just an MCP server is that I can use my Cloud subscription with my AI assistant without worrying about Anthropic pulling the rug and charging me extra beyond my subscription for something like open OpenClaw.",
-      "themes": [
-        "Agent UX",
-        "Claude Code",
-        "AI Engineering"
-      ],
-      "signal": "🟡 Insight",
-      "source": "Analyst",
-      "likes": 10,
-      "retweets": 0,
-      "replies": 5,
-      "quotes": 0,
-      "tweet_url": "https://x.com/kentcdodds/status/2055309860049387750",
-      "id": "2055309860049387750"
-    },
-    {
-      "is_reply": true,
-      "parent": {
-        "username": "mattpocockuk",
-        "name": "Matt Pocock",
-        "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
-        "text": "Long skills are such a red flag to me\n\n- Hard to audit (and therefore, trust)\n- Hard to edit (more text, harder to maintain)\n- Expensive to run (more text, more tokens)\n\nThe shorter the skill, the better IMO",
-        "tweet_url": "https://x.com/mattpocockuk/status/2055298876093952489",
-        "media": []
-      },
-      "reply": {
-        "username": "mattpocockuk",
-        "name": "Matt Pocock",
-        "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
-        "text": "Forgot to put:\n\n- Does too much (tries to take too much control from you)",
-        "themes": [
-          "AI Engineering"
-        ],
-        "signal": "🟡 Insight",
-        "source": "Analyst",
-        "likes": 55,
-        "retweets": 1,
-        "replies": 3,
-        "quotes": 1,
-        "tweet_url": "https://x.com/mattpocockuk/status/2055300577521766593",
-        "id": "2055300577521766593"
-      }
-    },
-    {
-      "username": "mattpocockuk",
-      "name": "Matt Pocock",
-      "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
-      "text": "Long skills are such a red flag to me\n\n- Hard to audit (and therefore, trust)\n- Hard to edit (more text, harder to maintain)\n- Expensive to run (more text, more tokens)\n\nThe shorter the skill, the better IMO",
-      "themes": [
-        "AI Engineering"
-      ],
-      "signal": "🟡 Insight",
-      "source": "Analyst",
-      "likes": 1376,
-      "retweets": 51,
-      "replies": 145,
-      "quotes": 12,
-      "tweet_url": "https://x.com/mattpocockuk/status/2055298876093952489",
-      "id": "2055298876093952489"
-    },
-    {
-      "is_reply": true,
-      "parent": {
-        "username": "mattpocockuk",
-        "name": "Matt Pocock",
-        "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
-        "text": "@kentcdodds Yes, the quality of the environment the agent operates in.",
-        "tweet_url": "https://x.com/mattpocockuk/status/2055272351554543712",
-        "media": []
-      },
-      "reply": {
-        "username": "kentcdodds",
-        "name": "Kent C. Dodds 🏹",
-        "avatar": "https://pbs.twimg.com/profile_images/1567269493608714241/6ACZo99k_normal.jpg",
-        "text": "@mattpocockuk It's interesting that while UX and DX seem to cover two sides of the software system, AX seems to cover both sides 🤔 Will probably make communicating about it using these terms a challenge.\n\nNetlify were the first to bring this up a year ago or so: https://t.co/vNtr4wJDfN",
-        "themes": [
-          "OSS",
-          "DevTools"
-        ],
-        "signal": "🟡 Insight",
-        "source": "Curator",
-        "likes": 2,
-        "retweets": 0,
-        "replies": 1,
-        "quotes": 0,
-        "tweet_url": "https://x.com/kentcdodds/status/2055273753391583257",
-        "id": "2055273753391583257"
-      }
-    },
-    {
-      "is_reply": true,
-      "parent": {
-        "username": "kentcdodds",
-        "name": "Kent C. Dodds 🏹",
-        "avatar": "https://pbs.twimg.com/profile_images/1567269493608714241/6ACZo99k_normal.jpg",
-        "text": "@mattpocockuk I think there are two way to think about this. AX can also be how well set up your system is for external agent consumption. A good MCP/API/CLI/etc are part of that. In that way, AX is an input to UX.",
-        "tweet_url": "https://x.com/kentcdodds/status/2055268786903597300",
-        "media": []
-      },
-      "reply": {
-        "username": "mattpocockuk",
-        "name": "Matt Pocock",
-        "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
-        "text": "@kentcdodds Yes, the quality of the environment the agent operates in.",
-        "themes": [
-          "Agent UX"
-        ],
-        "signal": "🟢 Discussion",
-        "source": "Community",
-        "likes": 3,
-        "retweets": 0,
-        "replies": 1,
-        "quotes": 0,
-        "tweet_url": "https://x.com/mattpocockuk/status/2055272351554543712",
-        "id": "2055272351554543712"
-      }
-    },
-    {
-      "is_reply": true,
-      "parent": {
-        "username": "mattpocockuk",
-        "name": "Matt Pocock",
-        "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
-        "text": "One thing I don't like about this is that DX and AX overlap by ~95%.\n\nWhat's good for DX is usually also great for AX.\n\nBut maybe that's the benefit of the definition.",
-        "tweet_url": "https://x.com/mattpocockuk/status/2055268036450353306",
-        "media": []
-      },
-      "reply": {
-        "username": "kentcdodds",
-        "name": "Kent C. Dodds 🏹",
-        "avatar": "https://pbs.twimg.com/profile_images/1567269493608714241/6ACZo99k_normal.jpg",
-        "text": "@mattpocockuk I think there are two way to think about this. AX can also be how well set up your system is for external agent consumption. A good MCP/API/CLI/etc are part of that. In that way, AX is an input to UX.",
-        "themes": [
-          "Agent UX",
-          "DevTools"
-        ],
-        "signal": "🟡 Insight",
-        "source": "Analyst",
-        "likes": 3,
-        "retweets": 0,
-        "replies": 1,
-        "quotes": 0,
-        "tweet_url": "https://x.com/kentcdodds/status/2055268786903597300",
-        "id": "2055268786903597300"
-      }
-    },
-    {
-      "is_reply": true,
-      "parent": {
-        "username": "mattpocockuk",
-        "name": "Matt Pocock",
-        "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
-        "text": "TIL:\n\nDX: Developer Experience\nAX: Agent Experience\n\nAX is an awesome descriptor for something I've been thinking about - how well an agent can perform in your codebase\n\nHow well-architected it is. How good the feedback loops are. How discoverable information is.\n\nLove it. https://t.co/WOpVashrhZ",
-        "tweet_url": "https://x.com/mattpocockuk/status/2055267400308654319",
-        "media": []
-      },
-      "reply": {
-        "username": "mattpocockuk",
-        "name": "Matt Pocock",
-        "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
-        "text": "One thing I don't like about this is that DX and AX overlap by ~95%.\n\nWhat's good for DX is usually also great for AX.\n\nBut maybe that's the benefit of the definition.",
-        "themes": [
-          "AI Engineering"
-        ],
-        "signal": "🟡 Insight",
-        "source": "Analyst",
-        "likes": 35,
-        "retweets": 1,
-        "replies": 16,
-        "quotes": 0,
-        "tweet_url": "https://x.com/mattpocockuk/status/2055268036450353306",
-        "id": "2055268036450353306"
-      }
-    },
-    {
-      "username": "mattpocockuk",
-      "name": "Matt Pocock",
-      "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
-      "text": "TIL:\n\nDX: Developer Experience\nAX: Agent Experience\n\nAX is an awesome descriptor for something I've been thinking about - how well an agent can perform in your codebase\n\nHow well-architected it is. How good the feedback loops are. How discoverable information is.\n\nLove it. https://t.co/WOpVashrhZ",
-      "themes": [
-        "Agent UX",
-        "DevTools"
-      ],
-      "signal": "🟡 Insight",
-      "source": "Curator",
-      "likes": 580,
-      "retweets": 22,
-      "replies": 60,
-      "quotes": 11,
-      "tweet_url": "https://x.com/mattpocockuk/status/2055267400308654319",
-      "id": "2055267400308654319"
-    },
-    {
-      "username": "mattpocockuk",
-      "name": "Matt Pocock",
-      "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
-      "text": "Sounds familiar\n\nLove that both great and mediocre minds can think alike\n\n(Martin being the great, ofc) https://t.co/GPjkvDr1AE",
-      "themes": [
-        "AI Engineering"
-      ],
-      "signal": "🟡 Insight",
-      "source": "Curator",
-      "likes": 293,
-      "retweets": 3,
-      "replies": 14,
-      "quotes": 1,
-      "tweet_url": "https://x.com/mattpocockuk/status/2055257466573648135",
-      "id": "2055257466573648135"
-    },
-    {
-      "username": "RhysSullivan",
-      "name": "Rhys",
-      "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
-      "text": "“The plan? Unlimited inference for $200, after rebate” https://t.co/BoyAtjLLY4",
-      "themes": [
-        "AI Engineering"
-      ],
-      "signal": "🟢 Discussion",
-      "source": "Curator",
-      "likes": 129,
-      "retweets": 1,
-      "replies": 5,
-      "quotes": 1,
-      "tweet_url": "https://x.com/RhysSullivan/status/2055186262726963365",
-      "id": "2055186262726963365"
-    },
-    {
-      "username": "mattpocockuk",
-      "name": "Matt Pocock",
-      "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
-      "text": "One painful thing about /grill-with-docs (and shared language in general) is the moment you realise you've been using the wrong word for something\n\nDDD-folks, do you ever do a refactor just to change the name of something throughout the codebase?\n\nIn my case, it's a feature in my",
-      "themes": [
-        "AI Engineering"
-      ],
-      "signal": "🟢 Discussion",
-      "source": "Community",
-      "likes": 420,
-      "retweets": 6,
-      "replies": 84,
-      "quotes": 2,
-      "tweet_url": "https://x.com/mattpocockuk/status/2055182900471992759",
-      "id": "2055182900471992759"
-    },
-    {
-      "username": "mattpocockuk",
-      "name": "Matt Pocock",
-      "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
-      "text": "How it started: Claude Code For Real Engineers\n\nHow it's going: AI Coding For Real Engineers",
-      "themes": [
-        "Claude Code",
-        "AI Engineering"
-      ],
-      "signal": "🟡 Insight",
-      "source": "Analyst",
-      "likes": 1350,
-      "retweets": 37,
-      "replies": 81,
-      "quotes": 9,
-      "tweet_url": "https://x.com/mattpocockuk/status/2055177489538756984",
-      "id": "2055177489538756984"
-    },
-    {
-      "username": "RhysSullivan",
-      "name": "Rhys",
-      "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
-      "text": "going into the next year having software that's managed by a team of experts staying up to date with all of the latest security patches is going to be so important\n\nnice that this postgres update was just handled automatically thanks planetscale https://t.co/R0ZwnBaQkN",
-      "themes": [
-        "TypeScript",
-        "Security"
-      ],
-      "signal": "🔴 Signal",
-      "source": "Builder",
-      "likes": 131,
-      "retweets": 4,
-      "replies": 6,
-      "quotes": 2,
-      "tweet_url": "https://x.com/RhysSullivan/status/2055169390627410262",
-      "id": "2055169390627410262"
-    },
-    {
-      "username": "RhysSullivan",
-      "name": "Rhys",
-      "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
-      "text": "I've been sleeping on models that can understand video\n\nI uploaded a 1 minute 20s recording of my pantry + fridge to Gemini 2.5 flash and got back a list of most my ingredients\n\nAlso downloaded my TikTok bookmarks and it does a good job of extracting recipes out of them https://t.co/jVwOiiydd0",
-      "themes": [
-        "TypeScript",
-        "DevTools",
-        "AI Engineering"
-      ],
-      "signal": "🟡 Insight",
-      "source": "Curator",
-      "likes": 44,
-      "retweets": 1,
-      "replies": 9,
-      "quotes": 1,
-      "tweet_url": "https://x.com/RhysSullivan/status/2055146346982854657",
-      "id": "2055146346982854657"
-    },
-    {
-      "username": "RhysSullivan",
-      "name": "Rhys",
-      "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
-      "text": "how i feel watching codex write typescript https://t.co/8bQsRo4k7b",
-      "themes": [
-        "Codex",
-        "TypeScript"
-      ],
-      "signal": "🟢 Discussion",
-      "source": "Curator",
-      "likes": 106,
-      "retweets": 1,
-      "replies": 6,
-      "quotes": 0,
-      "tweet_url": "https://x.com/RhysSullivan/status/2055074030508704030",
-      "id": "2055074030508704030"
-    },
-    {
-      "username": "RhysSullivan",
-      "name": "Rhys",
-      "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
-      "text": "nikita changed the algorithm and now my feed is only 1 liners",
-      "themes": [
-        "AI Engineering"
-      ],
-      "signal": "🟡 Insight",
-      "source": "Analyst",
-      "likes": 53,
-      "retweets": 0,
-      "replies": 14,
-      "quotes": 0,
-      "tweet_url": "https://x.com/RhysSullivan/status/2055069073957110083",
-      "id": "2055069073957110083"
-    },
-    {
-      "is_reply": true,
-      "parent": {
-        "username": "kentcdodds",
-        "name": "Kent C. Dodds 🏹",
-        "avatar": "https://pbs.twimg.com/profile_images/1567269493608714241/6ACZo99k_normal.jpg",
-        "text": "Building things faster &lt; Building the right things",
-        "tweet_url": "https://x.com/kentcdodds/status/2055035539926274457",
-        "media": []
-      },
-      "reply": {
-        "username": "kentcdodds",
-        "name": "Kent C. Dodds 🏹",
-        "avatar": "https://pbs.twimg.com/profile_images/1567269493608714241/6ACZo99k_normal.jpg",
-        "text": "When you see this, you think \"yeah, well obviously\"\n\nBut think about the amount of time you dedicate to fine tuning your workflow vs the amount of time you dedicate to understanding why your users \"hire your product\"",
-        "themes": [
-          "Agent UX",
-          "OSS",
-          "DevTools"
-        ],
-        "signal": "🟡 Insight",
-        "source": "Analyst",
-        "likes": 6,
-        "retweets": 0,
-        "replies": 1,
-        "quotes": 0,
-        "tweet_url": "https://x.com/kentcdodds/status/2055045010895388856",
-        "id": "2055045010895388856"
-      }
-    },
-    {
-      "username": "RhysSullivan",
-      "name": "Rhys",
-      "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
-      "text": "if ORMs are wrong why do they feel so right",
-      "themes": [
-        "AI Engineering"
-      ],
-      "signal": "🟢 Discussion",
-      "source": "Community",
-      "likes": 609,
-      "retweets": 12,
-      "replies": 100,
-      "quotes": 11,
-      "tweet_url": "https://x.com/RhysSullivan/status/2055039728165224469",
-      "id": "2055039728165224469"
-    },
-    {
-      "username": "kentcdodds",
-      "name": "Kent C. Dodds 🏹",
-      "avatar": "https://pbs.twimg.com/profile_images/1567269493608714241/6ACZo99k_normal.jpg",
-      "text": "Building things faster &lt; Building the right things",
-      "themes": [
-        "DevTools"
-      ],
-      "signal": "🟢 Discussion",
-      "source": "Community",
-      "likes": 50,
-      "retweets": 6,
-      "replies": 7,
-      "quotes": 2,
-      "tweet_url": "https://x.com/kentcdodds/status/2055035539926274457",
-      "id": "2055035539926274457"
-    },
-    {
-      "username": "RhysSullivan",
-      "name": "Rhys",
-      "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
-      "text": "while npm downloads are generally a bad metric, 10k weekly downloads for executor is sick\n\nso much more to build on it, thanks for the early support! https://t.co/7FnLSi57jj",
-      "themes": [
-        "DevTools"
-      ],
-      "signal": "🟡 Insight",
-      "source": "Curator",
-      "likes": 180,
-      "retweets": 1,
-      "replies": 11,
-      "quotes": 0,
-      "tweet_url": "https://x.com/RhysSullivan/status/2055029440728732053",
-      "id": "2055029440728732053"
-    },
-    {
-      "is_reply": true,
-      "parent": {
-        "username": "kentcdodds",
-        "name": "Kent C. Dodds 🏹",
-        "avatar": "https://pbs.twimg.com/profile_images/1567269493608714241/6ACZo99k_normal.jpg",
-        "text": "The Utah React meetup has been converted to an \"AI Native Engineering\" meetup.\n\nThis is a signal.",
-        "tweet_url": "https://x.com/kentcdodds/status/2055025667029303304",
-        "media": []
-      },
-      "reply": {
-        "username": "kentcdodds",
-        "name": "Kent C. Dodds 🏹",
-        "avatar": "https://pbs.twimg.com/profile_images/1567269493608714241/6ACZo99k_normal.jpg",
-        "text": "To be clear, this is a formal change. They literally changed the name etc.",
-        "themes": [
-          "AI Engineering"
-        ],
-        "signal": "🟡 Insight",
-        "source": "Analyst",
-        "likes": 9,
-        "retweets": 0,
-        "replies": 0,
-        "quotes": 0,
-        "tweet_url": "https://x.com/kentcdodds/status/2055028904952279051",
-        "id": "2055028904952279051"
-      }
-    },
-    {
-      "username": "kentcdodds",
-      "name": "Kent C. Dodds 🏹",
-      "avatar": "https://pbs.twimg.com/profile_images/1567269493608714241/6ACZo99k_normal.jpg",
-      "text": "The Utah React meetup has been converted to an \"AI Native Engineering\" meetup.\n\nThis is a signal.",
-      "themes": [
-        "TypeScript",
-        "AI Engineering"
-      ],
-      "signal": "🟡 Insight",
-      "source": "Analyst",
-      "likes": 94,
-      "retweets": 5,
-      "replies": 19,
-      "quotes": 0,
-      "tweet_url": "https://x.com/kentcdodds/status/2055025667029303304",
-      "id": "2055025667029303304"
-    },
-    {
-      "username": "kettanaito",
-      "name": "Artem Zakharchenko",
-      "avatar": "https://pbs.twimg.com/profile_images/1844034767756378112/p0qnRGI1_normal.jpg",
-      "text": "I'm excited for this! https://t.co/TB88ZMbzhn",
-      "themes": [
-        "AI Engineering"
-      ],
-      "signal": "🟢 Discussion",
-      "source": "Curator",
-      "likes": 4,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0,
-      "tweet_url": "https://x.com/kettanaito/status/2055017395668824532",
-      "id": "2055017395668824532"
-    },
-    {
-      "username": "kentcdodds",
-      "name": "Kent C. Dodds 🏹",
-      "avatar": "https://pbs.twimg.com/profile_images/1567269493608714241/6ACZo99k_normal.jpg",
-      "text": "I'm looking for 1-2 companies for a small paid pilot.\n\nI want to help engineering teams work through a real product-shaped decision:\n\nship vs refactor, customer request vs product direction, AI prototype vs production quality, roadmap vs onboarding/support/perf, etc.\n\nThe team",
-      "themes": [
-        "OSS",
-        "AI Engineering"
-      ],
-      "signal": "🟢 Discussion",
-      "source": "Community",
-      "likes": 28,
-      "retweets": 4,
-      "replies": 10,
-      "quotes": 1,
-      "tweet_url": "https://x.com/kentcdodds/status/2055009592992743748",
-      "id": "2055009592992743748"
-    },
-    {
-      "username": "RhysSullivan",
-      "name": "Rhys",
-      "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
-      "text": "moderately interesting inflection point was when anthropic told everyone that they should just be using Opus 4.5 rather than sonnet\n\nbefore then i remember swapping models a lot / being reserved on using the highest ones, now i'm always on opus / 5.5",
-      "themes": [
-        "Claude Code",
-        "AI Engineering"
-      ],
-      "signal": "🟡 Insight",
-      "source": "Analyst",
-      "likes": 60,
-      "retweets": 2,
-      "replies": 6,
-      "quotes": 0,
-      "tweet_url": "https://x.com/RhysSullivan/status/2054992085674275313",
-      "id": "2054992085674275313"
-    },
-    {
-      "username": "kettanaito",
-      "name": "Artem Zakharchenko",
-      "avatar": "https://pbs.twimg.com/profile_images/1844034767756378112/p0qnRGI1_normal.jpg",
-      "text": "I have successfully written the most flexible DOCX -&gt; AST parser out there.\n\nFor my needs.",
-      "themes": [
-        "AI Engineering"
-      ],
-      "signal": "🟡 Insight",
-      "source": "Analyst",
-      "likes": 8,
-      "retweets": 0,
-      "replies": 0,
-      "quotes": 0,
-      "tweet_url": "https://x.com/kettanaito/status/2054975075728974161",
-      "id": "2054975075728974161"
-    },
-    {
-      "username": "kettanaito",
-      "name": "Artem Zakharchenko",
-      "avatar": "https://pbs.twimg.com/profile_images/1844034767756378112/p0qnRGI1_normal.jpg",
-      "text": "npm should just freeze the entire registry at this point. Until they figure out and implement proper security practices for one of the largest supply chains in the world.",
-      "themes": [
-        "OSS",
-        "Security",
-        "AI Engineering"
-      ],
-      "signal": "🟡 Insight",
-      "source": "Analyst",
-      "likes": 129,
-      "retweets": 4,
-      "replies": 11,
-      "quotes": 1,
-      "tweet_url": "https://x.com/kettanaito/status/2054973046402769303",
-      "id": "2054973046402769303"
-    },
-    {
-      "username": "RhysSullivan",
-      "name": "Rhys",
-      "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
-      "text": "it's pretty cool we're seeing history get made here\n\nregardless of if bun pulls off the rewrite, software engineering is fundamentally different than it was 2 years ago https://t.co/TZjFlKZcQw",
-      "themes": [
-        "TypeScript",
-        "OSS"
-      ],
-      "signal": "🟡 Insight",
-      "source": "Curator",
-      "likes": 401,
-      "retweets": 18,
-      "replies": 15,
-      "quotes": 0,
-      "tweet_url": "https://x.com/RhysSullivan/status/2054944813427147019",
-      "id": "2054944813427147019"
-    },
-    {
-      "is_reply": true,
-      "parent": {
-        "username": "Baconbrix",
-        "name": "Evan Bacon 🥓",
-        "avatar": "https://pbs.twimg.com/profile_images/1576625400205250561/wGfn72X__normal.jpg",
-        "text": "this should be immortalized as a painting https://t.co/CtsG6yvI8e",
-        "tweet_url": "https://x.com/Baconbrix/status/2054929406255398958",
-        "media": []
-      },
-      "reply": {
-        "username": "kentcdodds",
-        "name": "Kent C. Dodds 🏹",
-        "avatar": "https://pbs.twimg.com/profile_images/1567269493608714241/6ACZo99k_normal.jpg",
-        "text": "@Baconbrix Wish the screenshot included diff delta",
-        "themes": [
-          "AI Engineering"
-        ],
-        "signal": "🟢 Discussion",
-        "source": "Analyst",
-        "likes": 3,
-        "retweets": 0,
-        "replies": 0,
-        "quotes": 0,
-        "tweet_url": "https://x.com/kentcdodds/status/2054938153350463776",
-        "id": "2054938153350463776"
-      }
-    },
-    {
-      "username": "Baconbrix",
-      "name": "Evan Bacon 🥓",
-      "avatar": "https://pbs.twimg.com/profile_images/1576625400205250561/wGfn72X__normal.jpg",
-      "text": "this should be immortalized as a painting https://t.co/CtsG6yvI8e",
-      "themes": [
-        "TypeScript",
-        "AI Engineering"
-      ],
-      "signal": "🟢 Discussion",
-      "source": "Curator",
-      "likes": 120,
-      "retweets": 1,
-      "replies": 7,
-      "quotes": 0,
-      "tweet_url": "https://x.com/Baconbrix/status/2054929406255398958",
-      "id": "2054929406255398958"
-    },
-    {
-      "is_reply": true,
-      "parent": {
-        "username": "kettanaito",
-        "name": "Artem Zakharchenko",
-        "avatar": "https://pbs.twimg.com/profile_images/1844034767756378112/p0qnRGI1_normal.jpg",
-        "text": "Learn more about visual regression testing in Playwright: https://t.co/kwAnU2cw3F",
-        "tweet_url": "https://x.com/kettanaito/status/2054925728945512651",
-        "media": []
-      },
-      "reply": {
-        "username": "kettanaito",
-        "name": "Artem Zakharchenko",
-        "avatar": "https://pbs.twimg.com/profile_images/1844034767756378112/p0qnRGI1_normal.jpg",
-        "text": "And if you want to go through hand-crafted exercises to get you up-to-date with the best practices of end-to-end testing, I've got just the resource for you!\n\n🎟️ Get it at a 40% discount while it's still on 🎟️\n\nhttps://t.co/lHv2558u2J",
-        "themes": [
-          "OSS"
-        ],
-        "signal": "🟡 Insight",
-        "source": "Curator",
-        "likes": 1,
-        "retweets": 0,
-        "replies": 0,
-        "quotes": 0,
-        "tweet_url": "https://x.com/kettanaito/status/2054925740836372779",
-        "id": "2054925740836372779"
-      }
-    },
-    {
-      "is_reply": true,
-      "parent": {
-        "username": "kettanaito",
-        "name": "Artem Zakharchenko",
-        "avatar": "https://pbs.twimg.com/profile_images/1844034767756378112/p0qnRGI1_normal.jpg",
-        "text": "💡 Did you know that Playwright has built-in visual regression testing?\n\nYou can assert on entire pages or individual locators with the same \".toHaveScreenshot()\" matcher. https://t.co/uNr6GxPvhZ",
-        "tweet_url": "https://x.com/kettanaito/status/2054925716698136806",
-        "media": [
-          {
-            "url": "https://x.com/kettanaito/status/2054925716698136806/photo/1",
-            "type": "image"
-          }
-        ]
-      },
-      "reply": {
-        "username": "kettanaito",
-        "name": "Artem Zakharchenko",
-        "avatar": "https://pbs.twimg.com/profile_images/1844034767756378112/p0qnRGI1_normal.jpg",
-        "text": "Learn more about visual regression testing in Playwright: https://t.co/kwAnU2cw3F",
-        "themes": [
-          "AI Engineering"
-        ],
-        "signal": "🟢 Discussion",
-        "source": "Curator",
-        "likes": 2,
-        "retweets": 0,
-        "replies": 1,
-        "quotes": 0,
-        "tweet_url": "https://x.com/kettanaito/status/2054925728945512651",
-        "id": "2054925728945512651"
-      }
-    },
-    {
-      "username": "kettanaito",
-      "name": "Artem Zakharchenko",
-      "avatar": "https://pbs.twimg.com/profile_images/1844034767756378112/p0qnRGI1_normal.jpg",
-      "text": "💡 Did you know that Playwright has built-in visual regression testing?\n\nYou can assert on entire pages or individual locators with the same \".toHaveScreenshot()\" matcher. https://t.co/uNr6GxPvhZ",
-      "themes": [
-        "AI Engineering"
-      ],
-      "signal": "🟡 Insight",
-      "source": "Curator",
-      "likes": 40,
-      "retweets": 3,
-      "replies": 1,
-      "quotes": 0,
-      "tweet_url": "https://x.com/kettanaito/status/2054925716698136806",
-      "id": "2054925716698136806"
-    },
-    {
-      "is_reply": true,
-      "parent": {
-        "username": "mattpocockuk",
-        "name": "Matt Pocock",
-        "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
-        "text": "/improve-codebase-architecture will soon output HTML\n\nThis rocks, thanks @trq212 https://t.co/RJWh0RCuW8",
-        "tweet_url": "https://x.com/mattpocockuk/status/2054922772573303293",
-        "media": [
-          {
-            "url": "https://x.com/mattpocockuk/status/2054922772573303293/photo/1",
-            "type": "image"
-          },
-          {
-            "url": "https://x.com/mattpocockuk/status/2054922772573303293/photo/1",
-            "type": "image"
-          }
-        ]
-      },
-      "reply": {
-        "username": "mattpocockuk",
-        "name": "Matt Pocock",
-        "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
-        "text": "@trq212 Stay up to date here:\n\nhttps://t.co/Deb3GlOBz7",
-        "themes": [
-          "AI Engineering"
-        ],
-        "signal": "🟢 Discussion",
-        "source": "Curator",
-        "likes": 43,
-        "retweets": 1,
-        "replies": 2,
-        "quotes": 0,
-        "tweet_url": "https://x.com/mattpocockuk/status/2054922884405956946",
-        "id": "2054922884405956946"
-      }
-    },
-    {
-      "username": "mattpocockuk",
-      "name": "Matt Pocock",
-      "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
-      "text": "/improve-codebase-architecture will soon output HTML\n\nThis rocks, thanks @trq212 https://t.co/RJWh0RCuW8",
-      "themes": [
-        "OSS",
-        "AI Engineering"
-      ],
-      "signal": "🟡 Insight",
-      "source": "Curator",
-      "likes": 2239,
-      "retweets": 72,
-      "replies": 68,
-      "quotes": 7,
-      "tweet_url": "https://x.com/mattpocockuk/status/2054922772573303293",
-      "id": "2054922772573303293"
-    },
-    {
-      "username": "kettanaito",
-      "name": "Artem Zakharchenko",
-      "avatar": "https://pbs.twimg.com/profile_images/1844034767756378112/p0qnRGI1_normal.jpg",
-      "text": "You might even say this value is extremely unknown. https://t.co/3KDHSEWsvV",
-      "themes": [
-        "AI Engineering"
-      ],
-      "signal": "🟡 Insight",
-      "source": "Curator",
-      "likes": 55,
-      "retweets": 2,
-      "replies": 1,
-      "quotes": 0,
-      "tweet_url": "https://x.com/kettanaito/status/2054913398291513589",
-      "id": "2054913398291513589"
-    },
-    {
-      "username": "mattpocockuk",
-      "name": "Matt Pocock",
-      "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
-      "text": "For anyone asking about how you'd use /prototype to test pure logic, this is a great example\n\nIt built this guy an interactive TUI: https://t.co/qD9k0jrjH9",
-      "themes": [
-        "OSS"
-      ],
-      "signal": "🟢 Discussion",
-      "source": "Community",
-      "likes": 410,
-      "retweets": 19,
-      "replies": 11,
-      "quotes": 0,
-      "tweet_url": "https://x.com/mattpocockuk/status/2054855404052513133",
-      "id": "2054855404052513133"
-    },
-    {
-      "username": "RhysSullivan",
-      "name": "Rhys",
-      "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
-      "text": "I cannot believe how low Google is on this chart they should be dominating the AI space https://t.co/1kjYePTRHb https://t.co/LMiP0ZfiMg",
-      "themes": [
-        "AI Engineering"
-      ],
-      "signal": "🟡 Insight",
-      "source": "Curator",
-      "likes": 87,
-      "retweets": 2,
-      "replies": 19,
-      "quotes": 1,
-      "tweet_url": "https://x.com/RhysSullivan/status/2054827812163580319",
-      "id": "2054827812163580319"
+      "retweets": 0
     },
     {
       "is_reply": true,
@@ -2098,86 +1768,119 @@
             "url": "https://x.com/mattpocockuk/status/2054808143041908936/video/1",
             "type": "image"
           }
-        ]
+        ],
+        "likes": 3130,
+        "retweets": 176
       },
       "reply": {
         "username": "mattpocockuk",
         "name": "Matt Pocock",
         "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
         "text": "Stay up to date with all my skills here:\n\nhttps://t.co/Qb0ko35sfP",
-        "themes": [
-          "Codex"
-        ],
-        "signal": "🟡 Insight",
-        "source": "Curator",
+        "media": [],
         "likes": 67,
         "retweets": 0,
         "replies": 2,
         "quotes": 0,
         "tweet_url": "https://x.com/mattpocockuk/status/2054808145596166518",
-        "id": "2054808145596166518"
-      }
+        "id": "2054808145596166518",
+        "created_at": "2026-05-14T06:16:53.000Z",
+        "themes": [
+          "Codex"
+        ],
+        "signal": "🟡 Insight",
+        "source": "Curator"
+      },
+      "likes": 67,
+      "retweets": 0
     },
     {
-      "username": "mattpocockuk",
-      "name": "Matt Pocock",
-      "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
-      "text": "/grill-me is my most popular skill ever.\n\nI get 5-10 messages a day about how it’s changed people’s workflows for the better\n\nBut… I’ve stopped using it for code. Here’s the improved version: https://t.co/Nuviji95au",
-      "themes": [
-        "Agent UX",
-        "OSS",
-        "DevTools"
-      ],
-      "signal": "🟡 Insight",
-      "source": "Curator",
-      "likes": 3130,
-      "retweets": 176,
-      "replies": 92,
-      "quotes": 11,
-      "tweet_url": "https://x.com/mattpocockuk/status/2054808143041908936",
-      "id": "2054808143041908936"
+      "is_reply": true,
+      "parent": {
+        "username": "RhysSullivan",
+        "name": "Rhys",
+        "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
+        "text": "i feel like im in trouble with the principle bro https://t.co/aHkKTi4G1W",
+        "tweet_url": "https://x.com/RhysSullivan/status/2051908081035141183",
+        "media": [
+          {
+            "url": "https://x.com/RhysSullivan/status/2051908081035141183/photo/1",
+            "type": "image"
+          }
+        ],
+        "likes": 96,
+        "retweets": 1
+      },
+      "reply": {
+        "username": "RhysSullivan",
+        "name": "Rhys",
+        "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
+        "text": "they can do whatever they want with limiting access to their models it's their right, however, it's also incredibly dumb\n\nwas actually going to have a lot of good stuff to say on the gemini models after using them for the first time but now im just kinda annoyed i cant use it",
+        "media": [],
+        "likes": 59,
+        "retweets": 1,
+        "replies": 3,
+        "quotes": 0,
+        "tweet_url": "https://x.com/RhysSullivan/status/2051908890229645604",
+        "id": "2051908890229645604",
+        "created_at": "2026-05-06T06:16:16.000Z",
+        "themes": [
+          "AI Engineering"
+        ],
+        "signal": "🟢 Discussion",
+        "source": "Community"
+      },
+      "likes": 59,
+      "retweets": 1
     },
     {
-      "username": "RhysSullivan",
-      "name": "Rhys",
-      "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
-      "text": "i added easy anti-cheat to claude code to prevent all those workarounds https://t.co/esnyX6l3dy",
-      "themes": [
-        "Claude Code",
-        "OSS"
-      ],
-      "signal": "🟡 Insight",
-      "source": "Curator",
-      "likes": 139,
-      "retweets": 6,
-      "replies": 18,
-      "quotes": 3,
-      "tweet_url": "https://x.com/RhysSullivan/status/2054785955387887766",
-      "id": "2054785955387887766"
-    },
-    {
-      "username": "RhysSullivan",
-      "name": "Rhys",
-      "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
-      "text": "they're gonna ban running claude code in tmux next bro 😭 https://t.co/t5KMeriTJR",
-      "themes": [
-        "Claude Code"
-      ],
-      "signal": "🟡 Insight",
-      "source": "Curator",
-      "likes": 969,
-      "retweets": 16,
-      "replies": 41,
-      "quotes": 3,
-      "tweet_url": "https://x.com/RhysSullivan/status/2054775063354966365",
-      "id": "2054775063354966365"
+      "is_reply": true,
+      "parent": {
+        "username": "RhysSullivan",
+        "name": "Rhys",
+        "avatar": "https://pbs.twimg.com/profile_images/1303727365265203200/0cgHOP3y_normal.jpg",
+        "text": "people don't realize error handling is the least interesting thing about effect https://t.co/IqZvItBlAE",
+        "tweet_url": "https://x.com/RhysSullivan/status/2055386002680869003",
+        "media": [],
+        "likes": 286,
+        "retweets": 11
+      },
+      "reply": {
+        "username": "mattpocockuk",
+        "name": "Matt Pocock",
+        "avatar": "https://pbs.twimg.com/profile_images/1666460461884211204/SmBm505D_normal.jpg",
+        "text": "@RhysSullivan Took me a long time to realise that DI was its core offering",
+        "media": [],
+        "likes": 58,
+        "retweets": 0,
+        "replies": 5,
+        "quotes": 0,
+        "tweet_url": "https://x.com/mattpocockuk/status/2055664728853131750",
+        "id": "2055664728853131750",
+        "created_at": "2026-05-16T15:00:38.000Z",
+        "themes": [
+          "AI Engineering"
+        ],
+        "signal": "🟡 Insight",
+        "source": "Analyst"
+      },
+      "likes": 58,
+      "retweets": 0
     }
   ],
   "stats": {
-    "total_fetched": 483,
-    "after_filter": 374,
-    "final_count": 100,
-    "replies": 126,
-    "replies_null_parent": 1
+    "total_fetched": 479,
+    "after_filter": 370,
+    "final_count": 75,
+    "regular_count": 57,
+    "reply_count": 18,
+    "replies_without_parent": 1,
+    "discord_count": 13,
+    "signals": {
+      "🔴 Signal": 2,
+      "🟡 Insight": 51,
+      "🟢 Discussion": 22,
+      "⚪ Link/Ref": 0
+    }
   }
 }
