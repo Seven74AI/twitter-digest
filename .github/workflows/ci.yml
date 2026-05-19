@@ -2,21 +2,21 @@ name: CI
 
 on:
   push:
-    branches: [main, master, dev]
-    paths-ignore: ['**.md', '**.txt', 'docs/**']
+    branches: [main]
+    paths-ignore: ['**.md', '**.txt']
   pull_request:
-    branches: [main, master]
+    branches: [main]
 
 jobs:
   ci:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        python-version: ['3.12']
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
         with:
-          python-version: ${{ matrix.python-version }}
-      - run: pip install -r requirements.txt
+          python-version: '3.12'
+
+      - run: pip install pytest
+
       - run: pytest
